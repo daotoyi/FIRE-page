@@ -1,0 +1,13 @@
+backup/
+files/
+invest/*.bbl
+invest/*.pdf
+invest/*.tex
+locks/
+markdown/ 
+note/ 
+org-beamer/ 
+org-latex/ 
+techyauld/ 
+template/ 
+tutorial/ 

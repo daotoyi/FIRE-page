@@ -1,2 +1,3 @@
-# Org
-org-note
+# FIRE
+
+Financial Independence, Retire Early

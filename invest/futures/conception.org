@@ -1,6 +1,0 @@
-#+AUTHOR: daoyi
-#+EMAIL: daotoyi@foxmail.com
-
-* basic
-
-* strategy

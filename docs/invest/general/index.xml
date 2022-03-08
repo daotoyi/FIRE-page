@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FIRE</title>
-    <link>https://daotoyi.cn/docs/invest/general/</link>
+    <link>https://fire.daotoyi.cn/docs/invest/general/</link>
     <description>Recent content on FIRE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Mar 2022 17:25:00 +0800</lastBuildDate><atom:link href="https://daotoyi.cn/docs/invest/general/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 17:25:00 +0800</lastBuildDate><atom:link href="https://fire.daotoyi.cn/docs/invest/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于基金</title>
-      <link>https://daotoyi.cn/docs/invest/general/about-fund/</link>
+      <link>https://fire.daotoyi.cn/docs/invest/general/about-fund/</link>
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
-      <guid>https://daotoyi.cn/docs/invest/general/about-fund/</guid>
+      <guid>https://fire.daotoyi.cn/docs/invest/general/about-fund/</guid>
       <description>fund #  基金的组织形式通常是采取 有限合似制 ，而非公司制。这是因为有限合伙只涉及一次征税，即退出 的时候交税。
 如果是有限责任公司，就涉及两层税制，公司层面交一次企业所得税，分红的时候交一次个人所得税。</description>
     </item>
     
     <item>
       <title>关于投资</title>
-      <link>https://daotoyi.cn/docs/invest/general/about-invest/</link>
+      <link>https://fire.daotoyi.cn/docs/invest/general/about-invest/</link>
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
-      <guid>https://daotoyi.cn/docs/invest/general/about-invest/</guid>
+      <guid>https://fire.daotoyi.cn/docs/invest/general/about-invest/</guid>
       <description>投资关系 #   一级市场（未上市前的公司）私募股权投资可以根据所投资标的成长阶段分为几个种类，
  第一步是 天使基金(种子、天使、PreA 轮)， 第二是 VC 基金(A-C 轮)，第三是 PE 基金（（轮后到上 市）。  LP有限合伙人 #  （Limited Partner）
 出资人
@@ -40,10 +40,10 @@ Angels天使投资 #  （Angel Investment）</description>
     
     <item>
       <title>基本概念</title>
-      <link>https://daotoyi.cn/docs/invest/general/basic-concpetion/</link>
+      <link>https://fire.daotoyi.cn/docs/invest/general/basic-concpetion/</link>
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
-      <guid>https://daotoyi.cn/docs/invest/general/basic-concpetion/</guid>
+      <guid>https://fire.daotoyi.cn/docs/invest/general/basic-concpetion/</guid>
       <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2022-02-12 周六 08:59]  OMO 公开市场操作 #  (Open market operations) #  公开市场操作是中央银行吞吐基础货币，调节市场流动性的主要货币政策工具，通过中央银行与市场交易对手进行有价证券和外汇交易，实现货币政策调控目标。
 中国公开市场操作包括人民币操作和外汇操作两部分。
 从交易品种看，中国人民银行公开市场业务债券交易主要包括回购交易、现券交易和发行中央银行票据。

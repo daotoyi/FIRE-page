@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/zh/categories/</loc>
+    <loc>https://daotoyi.cn/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://daotoyi.cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://example.com/zh/categories/"
+                href="https://daotoyi.cn/zh/categories/"
                 />
   </url><url>
-    <loc>https://example.com/zh/tags/</loc>
+    <loc>https://daotoyi.cn/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://daotoyi.cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://example.com/zh/tags/"
+                href="https://daotoyi.cn/zh/tags/"
                 />
   </url><url>
-    <loc>https://example.com/zh/</loc>
+    <loc>https://daotoyi.cn/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://daotoyi.cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://example.com/zh/"
+                href="https://daotoyi.cn/zh/"
                 />
   </url>
 </urlset>

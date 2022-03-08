@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FIRE</title>
-    <link>https://example.com/docs/invest/options/case/</link>
+    <link>https://daotoyi.cn/docs/invest/options/case/</link>
     <description>Recent content on FIRE</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/docs/invest/options/case/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://daotoyi.cn/docs/invest/options/case/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

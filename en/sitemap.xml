@@ -2,28 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/docs/example/</loc>
+    <loc>https://example.com/docs/invest/</loc>
+    <lastmod>2022-03-08T18:55:57+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/docs/example/table-of-contents/with-toc/</loc>
+    <loc>https://example.com/docs/invest/options/basic/</loc>
+    <lastmod>2022-03-08T17:24:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/docs/example/table-of-contents/without-toc/</loc>
+    <loc>https://example.com/docs/invest/options/case/</loc>
+  </url><url>
+    <loc>https://example.com/docs/invest/options/strategy/</loc>
+  </url><url>
+    <loc>https://example.com/docs/invest/table-of-contents/</loc>
+  </url><url>
+    <loc>https://example.com/docs/project/table-of-contents/</loc>
+  </url><url>
+    <loc>https://example.com/docs/invest/table-of-contents/with-toc/</loc>
+  </url><url>
+    <loc>https://example.com/docs/project/table-of-contents/with-toc/</loc>
+  </url><url>
+    <loc>https://example.com/docs/project/canyin/</loc>
+    <lastmod>2022-03-08T18:49:54+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/project/</loc>
+    <lastmod>2022-03-08T18:49:54+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/invest/general/</loc>
+    <lastmod>2022-03-08T18:55:57+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/invest/table-of-contents/without-toc/</loc>
+  </url><url>
+    <loc>https://example.com/docs/project/table-of-contents/without-toc/</loc>
+  </url><url>
+    <loc>https://example.com/docs/invest/options/</loc>
+    <lastmod>2022-03-08T17:24:31+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/post/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/docs/example/table-of-contents/</loc>
+    <loc>https://example.com/docs/project/collapsed/</loc>
   </url><url>
-    <loc>https://example.com/docs/example/collapsed/</loc>
+    <loc>https://example.com/docs/invest/futures/</loc>
   </url><url>
-    <loc>https://example.com/docs/industry/table-of-contents/</loc>
-  </url><url>
-    <loc>https://example.com/docs/invest/table-of-contents/</loc>
+    <loc>https://example.com/docs/invest/stocks/</loc>
   </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2022-02-12T12:12:06+08:00</lastmod>
+    <lastmod>2022-03-08T18:55:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -35,8 +67,11 @@
                 href="https://example.com/categories/"
                 />
   </url><url>
+    <loc>https://example.com/docs/</loc>
+    <lastmod>2022-03-08T18:55:57+08:00</lastmod>
+  </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2022-02-12T12:12:06+08:00</lastmod>
+    <lastmod>2022-03-08T18:55:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -48,20 +83,35 @@
                 href="https://example.com/"
                 />
   </url><url>
-    <loc>https://example.com/categories/Invest/</loc>
-    <lastmod>2022-02-12T12:12:06+08:00</lastmod>
+    <loc>https://example.com/categories/StartupBusiness/</loc>
+    <lastmod>2022-03-08T18:49:54+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/options/</loc>
-    <lastmod>2022-02-12T12:12:06+08:00</lastmod>
+    <loc>https://example.com/docs/project/canyin/kuaican/</loc>
+    <lastmod>2022-03-08T18:49:54+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/Invest/</loc>
+    <lastmod>2022-03-08T18:55:57+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/invest/general/about-fund/</loc>
+    <lastmod>2022-03-08T17:27:23+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/invest/general/about-invest/</loc>
+    <lastmod>2022-03-08T18:55:57+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/invest/general/basic-concpetion/</loc>
+    <lastmod>2022-03-08T17:26:20+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/invest/options/basic/options/</loc>
+    <lastmod>2022-03-08T17:24:31+08:00</lastmod>
   </url><url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2022-02-12T12:12:06+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/basic-concpetion/</loc>
-    <lastmod>2022-02-12T12:12:06+08:00</lastmod>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -70,6 +120,9 @@
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/hugoisforlovers/</loc>
@@ -106,11 +159,13 @@
     <loc>https://example.com/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/docs/example/collapsed/3rd-level/4th-level/</loc>
+    <loc>https://example.com/docs/invest/hidden/</loc>
   </url><url>
-    <loc>https://example.com/docs/example/collapsed/3rd-level/</loc>
+    <loc>https://example.com/docs/project/collapsed/3rd-level/4th-level/</loc>
   </url><url>
-    <loc>https://example.com/docs/example/hidden/</loc>
+    <loc>https://example.com/docs/project/collapsed/3rd-level/</loc>
+  </url><url>
+    <loc>https://example.com/docs/project/hidden/</loc>
   </url><url>
     <loc>https://example.com/docs/shortcodes/</loc>
   </url><url>
@@ -135,7 +190,5 @@
     <loc>https://example.com/docs/shortcodes/section/second-page/</loc>
   </url><url>
     <loc>https://example.com/docs/shortcodes/tabs/</loc>
-  </url><url>
-    <loc>https://example.com/docs/</loc>
   </url>
 </urlset>

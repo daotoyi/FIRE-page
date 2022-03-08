@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on FIRE</title>
+    <title>Blog on FIRE</title>
     <link>https://example.com/post/</link>
-    <description>Recent content in Posts on FIRE</description>
+    <description>Recent content in Blog on FIRE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Feb 2022 11:28:00 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>options</title>
-      <link>https://example.com/post/options/</link>
-      <pubDate>Sat, 12 Feb 2022 11:28:00 +0800</pubDate>
+      <title>Creating a New Theme</title>
+      <link>https://example.com/post/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/options/</guid>
-      <description> State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2022-02-12 周六 11:28]  策略 #  见习 #  结果 #  测试 #  </description>
+      <guid>https://example.com/post/creating-a-new-theme/</guid>
+      <description>Introduction #  This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
-      <title>基本概念</title>
-      <link>https://example.com/post/basic-concpetion/</link>
-      <pubDate>Sat, 12 Feb 2022 08:59:00 +0800</pubDate>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://example.com/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/basic-concpetion/</guid>
-      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2022-02-12 周六 08:59]  OMO (Open market operations) 公开市场操作 #  公开市场操作是中央银行吞吐基础货币，调节市场流动性的主要货币政策工具，通过中央银行与市场交易对手进行有价证券和外汇交易，实现货币政策调控目标。
-中国公开市场操作包括人民币操作和外汇操作两部分。
-从交易品种看，中国人民银行公开市场业务债券交易主要包括回购交易、现券交易和发行中央银行票据。
-回购交易 #    正回购 为中国人民银行向一级交易商卖出有价证券，并约定在未来购回的行为。央行进行正回购操作为回收流动性，正回购到期则为投放流动性。
-  逆回购 为中国人民银行向一级交易商购买有价证券，并约定在未来由一级交易商购回的行为。央行进行逆回购操作为投放流动性，逆回购到期则为回收流动性。
-  现券交易 #    现券买断 央行直接从二级市场买入债券，一次性地投放基础货币；
-  现券卖断 为央行直接卖出持有债券，一次性地回笼基础货币。
-  中央银行票据 #  即中国人民银行发行的短期债券，央行通过发行央行票据可以回笼基础货币，央行票据到期则体现为投放基础货币。
-note #  OMO、MLF 和 LPR 是央行针对不同期限和不同目标的利率调整工具。
-理论上来看，OMO、MLF 以及 LPR 三者变化实现不同的政策效果，并且调整利率曲线变化，因而三者不一定需要同时变化.
-MLF（Medium-term Lending Facility）中期借贷便利 #  feature #   央行借钱给商业银行(有门槛的，就是质押品) 操作时段一般为 3 个月、6个月、1年。  function #   为了增加市场流动性  LPR (Loan Prime Rate) 贷款市场报价利率 #  LPR 浮动利率是由 LPR 市场报价利率加基点构成的，基点数是固定的.</description>
+      <guid>https://example.com/post/migrate-from-jekyll/</guid>
+      <description>Move static content to static #  Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://example.com/post/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://example.com/post/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo #  Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs #  Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
     </item>
     
   </channel>

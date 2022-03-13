@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 08 Mar 2022 17:25:00 +0800</lastBuildDate><atom:link href="https://fire.daotoyi.cn/docs/invest/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>关于基金</title>
+      <title>About Fund</title>
       <link>https://fire.daotoyi.cn/docs/invest/general/about-fund/</link>
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
@@ -17,13 +17,13 @@
     </item>
     
     <item>
-      <title>关于投资</title>
+      <title>About investment</title>
       <link>https://fire.daotoyi.cn/docs/invest/general/about-invest/</link>
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/invest/general/about-invest/</guid>
       <description>投资关系 #   一级市场（未上市前的公司）私募股权投资可以根据所投资标的成长阶段分为几个种类，
- 第一步是 天使基金(种子、天使、PreA 轮)， 第二是 VC 基金(A-C 轮)，第三是 PE 基金（（轮后到上 市）。  LP有限合伙人 #  （Limited Partner）
+ 第一步是 天使基金(种子、天使、PreA 轮)， 第二是 VC 基金(A-C 轮)，第三是 PE 基金（（轮后到上 市）。  LP 有限合伙人 #  （Limited Partner）
 出资人
 在美国，绝大多数情况下，LP 都有一个最低投资额度——这个数字一般是 600 万美金，中国的话大多都是 600 万人民币。
 为了避免一个 LP 注资过多，大多数公司也会有一个最高投资额度——常见的则是由 1000 万至 2000 万不等。
@@ -34,12 +34,11 @@ GP 普通合伙人 #  (General Partner)
 大 GP 的收入一般是所谓 2/20，就是 2%的管理费+20%的收益分成（Carry）.
 GP 就是负责募、投、管、退，这四个主要职责，对基金的收益负责。
 普通合伙人是指在合伙企业中对合伙企业的债务依法承担无限连带责任的自然人、法人和其他组织。
-GP 需要对合伙企业债务承担无限连带责任，为了尽可能规避经营风险，实践中一般选择有限责任公司作为 GP 主体。
-Angels天使投资 #  （Angel Investment）</description>
+GP 需要对合伙企业债务承担无限连带责任，为了尽可能规避经营风险，实践中一般选择有限责任公司作为 GP 主体。</description>
     </item>
     
     <item>
-      <title>基本概念</title>
+      <title>Basic Concept</title>
       <link>https://fire.daotoyi.cn/docs/invest/general/basic-concpetion/</link>
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       

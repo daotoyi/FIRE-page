@@ -5,6 +5,9 @@
     <link>https://fire.daotoyi.cn/docs/project/</link>
     <description>Recent content in Project on FIRE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Mar 2022 20:14:30 +0800</lastBuildDate><atom:link href="https://fire.daotoyi.cn/docs/project/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fire.daotoyi.cn/docs/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

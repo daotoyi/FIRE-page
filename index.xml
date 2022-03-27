@@ -5,14 +5,17 @@
     <link>https://fire.daotoyi.cn/</link>
     <description>Recent content in Introduction on FIRE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Mar 2022 12:34:08 +0800</lastBuildDate><atom:link href="https://fire.daotoyi.cn/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fire.daotoyi.cn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Creating a New Theme</title>
       <link>https://fire.daotoyi.cn/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/creating-a-new-theme/</guid>
-      <description>Introduction #  This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
@@ -22,9 +25,54 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static #  Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>VR、AR 和 MR</title>
+      <link>https://fire.daotoyi.cn/posts/ar-vr-mr/</link>
+      <pubDate>Sun, 27 Mar 2022 11:34:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/posts/ar-vr-mr/</guid>
+      <description>VR,虚拟现实 Virtual Reality, 可以让用户沉浸其中的由计算机生成的三维虚拟环境，并与现实环境相隔绝。
+看到的场景和人物全是“假的”.
+AR,增强现实 Augmented Reality,在真实环境中增添或者移除由计算机实时生成的可以交互的虚拟物体或信息。
+看到的场景和人物一部分是真的，一部分是“假的”，是把虚拟的信息带入到现实世界中。
+MR,介导现实 Mediated Reality, 通过全息图，将现实环境与虚拟环境相互混合，也可以看成是 VR 与 AR 的混合。
+混合现实 “混合现实”(MixedReality)是 Mediated Reality 的一个真子集.
+联系 “VR 是纯虚拟数字画面，包括 AR 在内的 Mixed Reality 是虚拟数字画面+裸眼现实,，MR 是数字化现实+虚拟数字画面。”.
+  </description>
+    </item>
+    
+    <item>
+      <title>降级论</title>
+      <link>https://fire.daotoyi.cn/posts/reduct-dimension/</link>
+      <pubDate>Mon, 14 Mar 2022 16:04:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/posts/reduct-dimension/</guid>
+      <description>几乎一年没有写博客了，说没时间那是借口，唯一的原因是，年纪越大越发觉自己肤浅。有些想法还没提笔，就发现很幼稚，就不敢发出来贻笑大方了。这次先给大家说个小故事：
+从前有三个屌丝，聚在一起做网络，提供免费的网络服务，砸锅卖铁，通宵达旦，除了卖肾啥都做了。3年后终于做到了五百万用户，对于年轻人来说，能把五百万人玩弄于鼓掌之间，已经是很牛逼轰轰的事了，不过用户越多，成本越高，每年服务器、带宽租金、房租水电、广告运营等成本，已经达到了十七八万，屌丝们不得不面对一个终极问题：如何盈利？
+屌丝们定了三盘沙县水饺，围着一箱子的冰啤酒开始计算：按照最近一月的登陆情况来看，四百万个账号已经不活跃了，真正有商业价值的只有一百万人，如 果开通 xx 功能，收点高级会员费，让其中 1%的人升级为高级会员，每年付 30 块钱年费，那么每年收入就是 100 万 x1%x30 元=30 万元！不错嘛， 扣除十七八万的运营成本，还剩毛利润 12 万，每个屌丝年底能分到 4 万大洋，如果按照打工者的算法，这三个人每人月薪 3333 元，木有奖金，木有津贴、木有任何福利，上班还得带自家的电脑。
+尽管如此，屌丝们还是激动得感谢苍天！我们终于要盈利啦！那一夜，人们看到三个发疯的屌丝在屋顶翩翩起舞。
+韩寒说，中国人民是最有忍耐力的族群，一点好处就感激涕零。他一定不知道，IT 创业界里的屌丝，才是这群傻逼中的战斗机。他们可以平静地忍受每年都持续亏钱，而且还能信心十足的对所有人说公司的状态非常好，如果有一天居然收支平衡了，他们会激动的彻夜难眠，比北朝鲜倒掉还开心。
+这三个屌丝其实是非常幸运的，至少能做到月薪 3333 元。大部分的屌丝在第一年做到几万用户的时候就会挂掉，原因众多，最主要要的是意志太弱，受不了最初的寂寞；意志稍微坚强点的会在第二年第三年慢慢挂掉，原因主要是资金断裂、团队分裂；能成功熬到第四年还没饿死、还没被口水淹死、还没被肠胃病颈椎病腰肌劳损折磨死的，甚至员工不减反增的，基本上属于神仙级别了。
+我为什么要说这个小故事呢。首先是因为这是身边每天都在发生的故事，其次是因为感到可惜，IT 界在我眼里一直是一个无比高级的职业，聚集着全球最聪明、最富有的人类精英。以 IT 创业界的青年们的智商，他们可以做成任何一件事情，包括改造银行到制造汽车到发射航天飞机 。结果这帮人却整天在蓬头垢面得为 3k 的月薪而挣扎，太悲催了。
+为什么用悲催这个词？ 如果一个人生下来就在山沟沟里，一辈子都没机会去见什么好东西，这不叫悲催，这只叫苦难；而如果一个人生出来有一个奇怪的特异功能：皮肤出来的汗水会凝结成昂贵的水晶，本来只靠出汗就能赚钱，结果这傻逼居然觉得出汗这个行为太低级，做手术把自己的汗腺全给切了，而且丝毫没有意识到他做了什么傻事，这才叫真的悲催。
+我们 IT 界中的很多人，生下来就是有这个出汗成水晶的特异功能的，正是因为这种与众不同，这群人能混入牛逼的大学，整天打网游还能写出像样的毕业论文， 拿到学位，进外企，考 CPA，做咨询、做证券分析，研究高分子材料，做电子商务，做云计算……一级一级的上升，直到有一天，发现身边的人里，已经没有一个不是 CPA，不是咨询师，不是高级研究员了，身边的人全是业界精英，个个都超级强悍。在这个所谓的高级圈子里，自己并没有任何过人之处，只不过是 just another analyst 而已。在高级圈子里拼的头破血流，最后也只能混到给台湾人整理数据而已。莫然回首，发现当年的血气方刚、年少时的无限梦想，进化成了一身肥胖的赘肉。这个时候，有个旁观者说：“升级到头了，该降级了”
+当一个社会疯狂鼓吹快节奏的时候，一定需要有人来宣扬慢生活；当全社会跟打了鸡血似的吹捧升级的时候，一定需要有人来说说降级论。
+IT 青年们喜欢打游戏，喜欢升级。他们的人生也和游戏一样，沉醉于不停的升级中，不仅喜欢升级自己手上的技术，把 MySql 改成 MongoDB，把 Apache 改为 Nginx，在 Mac 上装 Ubuntu，Ubuntu 里再装个虚拟机去跑 Mac OS……IT 青年们也喜欢升级自己的人生，从程序员升级到项目经理，再升级到技术总监或产品总监，再升级到合伙人……
+在不断追求升级的过程中，所面临的一个很大事实是：当一个人从 A 刚升级到 A+级的时候，其实这个人的能力层级依然只是 A 的层级，还未胜任 A+的层级，他必须要到 A+的后期，才可以胜任 A+。就好像一个高中生，高考完之后，虽然理论上已经属于大学生了，但是他的实际能力依然只是高三毕业的水平，除非他全部 pass 了大一的期末考试。同样的道理，这个世界上有很多人的身份和称谓，都是在描述“未来的自己”，而不是现在的自己。当你从销售员升级为销售经理的时候，你自我感觉很好：“我现在是销售经理了”，但是这个时候 ，你并未通过公司对你作为销售经理这一年的工作成果的考核，你只是一个“未来可能是合格的销售经理”的前身。如果年终考核你失败了，那么这一年最准确的描述是：一个销售员，占了整整一年销售经理的位子，最后失败了。而且这一年一定会过的很累，因为通过考核的其他销售经理，才是真正胜任这个层级的人，跟一帮真正属于这个圈子的人厮杀，就好像拳击馆里当陪练的小角色，去和泰森比了一年的武，怎么可能不累呢？</description>
+    </item>
+    
+    <item>
+      <title>选择的重要性</title>
+      <link>https://fire.daotoyi.cn/posts/selection/</link>
+      <pubDate>Sun, 13 Mar 2022 15:05:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/posts/selection/</guid>
+      <description>State &amp;ldquo;DONE&amp;rdquo; from [2022-03-13 周日 15:05]  人与人的收入不一样，原因不是甲比乙更努力，而是很多外部因素综合起来的结果。 甲拥有的资本、技能和环境条件超过了乙，使得甲所在的层次高于乙。一个餐厅服务员，无论怎样努力，收入恐怕都不会超过基金经理，道理就在这里。</description>
     </item>
     
     <item>
@@ -33,7 +81,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sun, 13 Mar 2022 12:34:08 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/electricity/copmare-products/</guid>
-      <description>对比项目 #      常规录波器 电能质量监测1 结算计量装置2 模拟 PMU3 行波测距4     通信-网口 ≥4 有 2 RJ45 ≥4 ≥4   通信-串口 - 有(RS232/485) 2 RS485 - -   通信-USB 3 有  有 有   显示 - 无 或者 有(与按键交互) 有（LCD） 有(按键或触屏) -   按键 有（录波） 无 或者 有(控制显示) 有 有(控制显示) -   对时 IRIG-B IRIG-B IRIG-B IRIG-B(光或电) IRIG-B   采集频率 常用 12.</description>
+      <description>对比项目     常规录波器 电能质量监测1 结算计量装置2 模拟 PMU3 行波测距4     通信-网口 ≥4 有 2 RJ45 ≥4 ≥4   通信-串口 - 有(RS232/485) 2 RS485 - -   通信-USB 3 有  有 有   显示 - 无 或者 有(与按键交互) 有（LCD） 有(按键或触屏) -   按键 有（录波） 无 或者 有(控制显示) 有 有(控制显示) -   对时 IRIG-B IRIG-B IRIG-B IRIG-B(光或电) IRIG-B   采集频率 常用 12.</description>
     </item>
     
     <item>
@@ -42,13 +90,13 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sun, 13 Mar 2022 11:49:36 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/electricity/power-quality-monitoring/</guid>
-      <description>规格描述 #  通过对引入的电压、电流信号进行分析处理，实现对电能质量指标进行监测的专用设备，包括电能质量监测终端和便携式电能质量分析仪.
+      <description>规格描述 通过对引入的电压、电流信号进行分析处理，实现对电能质量指标进行监测的专用设备，包括电能质量监测终端和便携式电能质量分析仪.
   监测装置分为 A 级和 S 级(根据测量方法及性能)：
  A 级用于需要进行精确测量的场合，如标准符合性检査、解决争议、电能质量合同仲裁等 S 级用于不需要较高精确度的应用场合，如电能质量调査统计、排除故障等。    监测装置的分类
  按信号的接入方式分类  直接接入式：待测电压、电流信号直接接入监测装置，不需要中间设备； 间接接入式：待测电压、电流信号经传感器接入监测装置      按接入信号的类别分类
- 模拟接入式：待测电压、电流的模拟信号接入监测装置； 数字接入式：待测电压、电流的数字信号接入监测装置。    模拟量接入 #    电压信号输入回路
+ 模拟接入式：待测电压、电流的模拟信号接入监测装置； 数字接入式：待测电压、电流的数字信号接入监测装置。    模拟量接入   电压信号输入回路
  额定电压信号：  互感器接入法：(≈100/1.7)V 和 100V 直接接入法：220V 和 380V.   过压能力 4 倍额定电压允许 1s.    电流信号输入回路
- 接入范围：额定电流 1A 或 5A: 过载能力 1.5 倍额定电流连续，10 倍额定电流持续 1s。    数量量接入 #  接入合并单元（采样值至少采用 12800Hz 的采样频率进行同步采样，采样值同步精度应不大于 1us)</description>
+ 接入范围：额定电流 1A 或 5A: 过载能力 1.5 倍额定电流连续，10 倍额定电流持续 1s。    数量量接入 接入合并单元（采样值至少采用 12800Hz 的采样频率进行同步采样，采样值同步精度应不大于 1us)</description>
     </item>
     
     <item>
@@ -57,13 +105,13 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sun, 13 Mar 2022 11:47:53 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/electricity/settlement-measurement/</guid>
-      <description>触发 #  任一指标达到设定的触发条件时，应同时触发所有电压、电流回路， 并记录波形和有效值。对于波形记录，每周波应至少采样 256 点
+      <description>触发 任一指标达到设定的触发条件时，应同时触发所有电压、电流回路， 并记录波形和有效值。对于波形记录，每周波应至少采样 256 点
 采样频率至少为 256*50=12800Hz
-尺寸 #  外形尺寸规格： 290mm（高）×170mm（宽）×85mm（厚）；
- 显示 #  采用 LCD 显示信息，液晶屏可视尺寸为 85mm（长）×50mm（宽）
-按键 #  按键操作响应时间不大于 1s，无卡死或接触不良现象，各部件应紧固.
-输出接口 #   电能量脉冲输出、功能测试接口、报警输出、RS485 接口、调制型红外接口要求 两个 RJ45 接口，两个 RS485 接口 (宜)RS485 授时接口，采用 IRIG-B（DC)码方式与站内授时源对时.  辅助电源接口 #   辅助电源供电电压为（100～240）V 交、直流自适应 线路和辅助电源两种供电方式应能实现无间断自动转换  电池 #   抄表及全失压电池,输出电压为 6V，额定容量≥1200mAh 时钟电池,标称电压 3.6V，额定容量≥1200mAh，不可更换  测量功能 #  电压测量及电流测量(经互感器接入)
- 电压测量范围： 0.05U nom ~1.5U nom ，测量误差（引用误差)不超过±0.2% 电流（含零线)测量范围：I min ~1.</description>
+尺寸 外形尺寸规格： 290mm（高）×170mm（宽）×85mm（厚）；
+  显示 采用 LCD 显示信息，液晶屏可视尺寸为 85mm（长）×50mm（宽）
+按键 按键操作响应时间不大于 1s，无卡死或接触不良现象，各部件应紧固.
+输出接口  电能量脉冲输出、功能测试接口、报警输出、RS485 接口、调制型红外接口要求 两个 RJ45 接口，两个 RS485 接口 (宜)RS485 授时接口，采用 IRIG-B（DC)码方式与站内授时源对时.  辅助电源接口  辅助电源供电电压为（100～240）V 交、直流自适应 线路和辅助电源两种供电方式应能实现无间断自动转换  电池  抄表及全失压电池,输出电压为 6V，额定容量≥1200mAh 时钟电池,标称电压 3.6V，额定容量≥1200mAh，不可更换  测量功能 电压测量及电流测量(经互感器接入)
+ 电压测量范围： 0.05U nom ~1.5U nom ，测量误差（引用误差)不超过±0.2% 电流（含零线)测量范围：I min ~1.2I max , I min ~0.05I tr 时测量误差（引用误差)不超过±1%，0.05I tr 及以上测量误差（引用误差)不超过±0.5%；  参考  自主可控新一代变电站二次系统技术规范 装置类系列规范 6 结算计量装置 三相智能电能表技术规范  \newpage</description>
     </item>
     
     <item>
@@ -72,10 +120,10 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sun, 13 Mar 2022 11:47:46 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/electricity/xing-bo-ce-ju/</guid>
-      <description>产品描述 #  500kV 及以上系统的交流线路、220kV 长度超过 50kM 或多单位维护的交流线路应配置集中式行波测距装置；其它 220kV 巡线困难的交流线路宜装设行波测距装置。
-对时 #  有对时功能，对时误差不大于 1μs。
-通信接口 #   装置应具备至少 4 个独立的 10M 及以上以太网接口。 应具备打印接口。 宜具备 USB 转存接口。  无源节点 #  当地告警信号应不少于 3 对硬接点输出，分别为装置起动、装置失电、装置故障。
-信号接入 #   对交流线路，行波测距装置可直接接入 CT 二次侧、PT 二次侧或在互感器接地回路经专用互感器提取行波信号； 对直流线路，行波测距装置通过测量直流耦合电容器接地引线电流的专用互感器提取行波信号。  采集频率 #  装置采样频率不小于 1MHz.</description>
+      <description>产品描述 500kV 及以上系统的交流线路、220kV 长度超过 50kM 或多单位维护的交流线路应配置集中式行波测距装置；其它 220kV 巡线困难的交流线路宜装设行波测距装置。
+对时 有对时功能，对时误差不大于 1μs。
+通信接口  装置应具备至少 4 个独立的 10M 及以上以太网接口。 应具备打印接口。 宜具备 USB 转存接口。  无源节点 当地告警信号应不少于 3 对硬接点输出，分别为装置起动、装置失电、装置故障。
+信号接入  对交流线路，行波测距装置可直接接入 CT 二次侧、PT 二次侧或在互感器接地回路经专用互感器提取行波信号； 对直流线路，行波测距装置通过测量直流耦合电容器接地引线电流的专用互感器提取行波信号。  采集频率 装置采样频率不小于 1MHz.</description>
     </item>
     
     <item>
@@ -84,10 +132,10 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sun, 13 Mar 2022 11:40:47 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/electricity/edge-gateway/</guid>
-      <description>边缘网关 edge gateway #  一种网关设备，部署在变电站、配电站所/台区/杆塔、分布式新能源等新兴市场主体的并网点等位置，负责采集本地电网运行数据，上送边缘集群，并实现电网运行方式切换、调频/调峰等指令操作，具备边缘计算和云边协同应用功能，支撑调度运行和市场运营。
+      <description>边缘网关 edge gateway 一种网关设备，部署在变电站、配电站所/台区/杆塔、分布式新能源等新兴市场主体的并网点等位置，负责采集本地电网运行数据，上送边缘集群，并实现电网运行方式切换、调频/调峰等指令操作，具备边缘计算和云边协同应用功能，支撑调度运行和市场运营。
 边缘网关根据应用场景和功能性能差异分为 I 型边缘网关、II 型边缘网关和 III 型边缘网关。
- I 型边缘网关指部署在变电站的智能远动机。 II 型边缘网关具备交直流模拟量测量及开关量输入输出功能，应用于配电站所/台区/杆塔、分布式新能源、储能、电动汽车充电设施等场合。 III 型边缘网关从接入对象的监控系统（本地/平台）采集数据，应用于综合能源园区、虚拟电厂等场合。  接口要求 #  接口应满足以下要求：
-远传 2/3/4G 5G #   有无线远传需求的边缘网关，应具备 1 路无线公网/专网远程通信接口，应支持 2/3/4G，宜支持 5G。  LNA 2(100/1000Mbit/s) #   应具备至少 2 路以太网接口，传输速率选用 100/1000Mbit/s 全双工。  console #   应至少具备 1 路本地维护接口，可支持 UART、ETH，其中 UART 支持速率 38400bps 或以上，通过本地维护接口可设置网关参数，进行软件升级等。  HPLC #   可连接 HPLC 模块、微功率模块或双模模块。  UART(4RS485,2RS232) #   应具备至少 4 路 RS-485，2 路 RS-232/RS-485 可切换串口，串口速率可选用 1200 bps、2400 bps、4800 bps、9600 bps、19200 bps、38400bps 等。  AD(3U3I) #   II 型边缘网关应具备至少 3 路交流电压输入接口，输入额定值为 220V/320V，或 57.</description>
+ I 型边缘网关指部署在变电站的智能远动机。 II 型边缘网关具备交直流模拟量测量及开关量输入输出功能，应用于配电站所/台区/杆塔、分布式新能源、储能、电动汽车充电设施等场合。 III 型边缘网关从接入对象的监控系统（本地/平台）采集数据，应用于综合能源园区、虚拟电厂等场合。  接口要求 接口应满足以下要求：
+远传 2/3/4G 5G  有无线远传需求的边缘网关，应具备 1 路无线公网/专网远程通信接口，应支持 2/3/4G，宜支持 5G。  LNA 2(100/1000Mbit/s)  应具备至少 2 路以太网接口，传输速率选用 100/1000Mbit/s 全双工。  console  应至少具备 1 路本地维护接口，可支持 UART、ETH，其中 UART 支持速率 38400bps 或以上，通过本地维护接口可设置网关参数，进行软件升级等。  HPLC  可连接 HPLC 模块、微功率模块或双模模块。  UART(4RS485,2RS232)  应具备至少 4 路 RS-485，2 路 RS-232/RS-485 可切换串口，串口速率可选用 1200 bps、2400 bps、4800 bps、9600 bps、19200 bps、38400bps 等。  AD(3U3I)  II 型边缘网关应具备至少 3 路交流电压输入接口，输入额定值为 220V/320V，或 57.</description>
     </item>
     
     <item>
@@ -96,16 +144,37 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 21:16:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/tan-zhong-he/</guid>
-      <description>《蒙特利尔协议》 #  早在 1985 年，全球主要工业国家几乎一个不少的，共同签订了一个几乎是踩着生死时间线，把人类从团灭命运边缘拯救回来的国际协议：《蒙特利尔协议》.
+      <description>《蒙特利尔协议》 早在 1985 年，全球主要工业国家几乎一个不少的，共同签订了一个几乎是踩着生死时间线，把人类从团灭命运边缘拯救回来的国际协议：《蒙特利尔协议》.
 这个协议旨在保护地球臭氧层，并且尽一切办法阻止南极臭氧层空洞的扩大。
 原因只有一个： 如果人类不立刻开始削减氟利昂产量，以及限制氟利昂的使用，那么人类文明的终点，大概就在 2020 至 2050 年之间！
-氟利昂 #  氟利昂这玩意虽然稳定，但是它稳定到了只跟臭氧发生反应！
+氟利昂 氟利昂这玩意虽然稳定，但是它稳定到了只跟臭氧发生反应！
 而且 1 个氟利昂分子在完成反应之前，至少会连续干掉 10W 个以上的臭氧分子！在这之前的 60 年内(1920-1980，人类已经共计生产氟利昂超过 100 万吨。
 臭氧层的主要作用，就是大规模拦截紫外线短波。臭氧层一旦消失，短波辐射到达地表，地球瞬间就会变成一个超大号微波炉
 现在每年 7~8 月南极臭氧层空洞开始扩大，10 月抵达巅峰，然后开始收缩。 而且就在去年，也就是 2021 年！ 南极臭氧层空洞达到了历史极值，2400W 平方公里，比南极洲还大！
 南极的空洞虽然随着氟利昂的禁用会慢慢恢复，但也存在致命 BUG，那就是它跟普通地区的臭氧层不一样，它是越冷越大，这是因为大气冰晶造成的。
 极地区域因为高寒，所以冬季会在高空云层形成大量固态冰晶，这些冰晶会释放空气中的氯基气体，而氯基气体会大规模中和臭氧
-碳中和 #  很多时候，决定经济行为的根源，往往不会是经济问题本身！</description>
+碳中和 很多时候，决定经济行为的根源，往往不会是经济问题本身！</description>
+    </item>
+    
+    <item>
+      <title>红圏&#34;五院四系&#34;</title>
+      <link>https://fire.daotoyi.cn/posts/hongquan/</link>
+      <pubDate>Sat, 12 Mar 2022 20:41:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/posts/hongquan/</guid>
+      <description>概念是来自法律界“福布斯”之称的《亚洲法律杂志》（ALB）在题为《红圈中的律师事务所》一文中提出的，是指中国最顶级的律所。
+公认的八大红圈律所为：
+ 金杜（KWM） 君合（Jun He） 方达（Fangda Partners） 竞天公诚（Jingtian&amp;amp; Gongcheng） 通商（Commerce&amp;amp;Finance） 环球（Global Law Offices） 海问（Haiwen &amp;amp; Partners） 中伦（Zhong Lun）。  “五院”是：中国政法大学、西南政法大学、西北政法大学、中南财经政法大学和华东政法大学。
+“四系”是：北京大学法学院、中国人民大学法学院、武汉大学法学院、吉林大学法学院。</description>
+    </item>
+    
+    <item>
+      <title>邮件中的英文缩写</title>
+      <link>https://fire.daotoyi.cn/posts/english-abbreviations-in-email/</link>
+      <pubDate>Sat, 12 Mar 2022 20:36:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/posts/english-abbreviations-in-email/</guid>
+      <description>   abbreviations 全拼 释义          OOO Out of Office 不上班，不在办公室   PS postscript 一般放在邮件的文末附注一些需要提及的内容   CC carbon copy 抄送（carbon [ˈkɑːbən]   BCC blind carbon copy    FYI For Your Information 供你参考   ASAP As soon as possible 尽快   NRN No Reply Necessary 不用回复   NSFW Not Safe For Work 不适于工作场所   BR Best Regards 祝好   BTW By the way 顺便说一下   PTO Paid Time Off 带薪休假   FAQ Frequently Asked Question 常见问题   TBD To Be Determined 待决定，待商议   RSVP （法语）Répondez s&amp;rsquo;il vous plait 请回复   OT Overtime 加班   O2O Online to Offline 线上到线下   N/A Not Applicable 不适用   KPI Key PerformanceIndication 关键业绩指标   BS brainstorming 头脑风暴   AL annual leave 年假   OMW On My Way 在路上   BRB Be Right Back 马上回来   LMK Let Me Know 告诉我   TBH To Be Honest 坦白说    </description>
     </item>
     
     <item>
@@ -116,19 +185,19 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>https://fire.daotoyi.cn/posts/mind-change-body/</guid>
       <description>我们的身体拥有非常强大的自我修复能力、自我疗愈能力、自我适应能力、自我觉醒能力、自我救赎能力。
 就是人对自己的发自内心的相信。
-心理科学 #  美国著名心理学专业刊物《心理科学》，在前不久公布了一项很有趣的实验成果：通过改变一个人内心对自身视力的预期，能改变他真实的视力水平。
+心理科学 美国著名心理学专业刊物《心理科学》，在前不久公布了一项很有趣的实验成果：通过改变一个人内心对自身视力的预期，能改变他真实的视力水平。
 普通的视力表是上大下小，于是被测者就有一个心理预期，越往下就会越看不见。而在这项实验中，实验者将视力表的字幕设计为上小下大。被测者的心理预期被扭转过来，越往下，应该看得清楚。
- https://mmbiz.qpic.cn/mmbiz_jpg/IIMKg13LHKibretj7loHtP6vBxMiaXsWfOicwnuJl1PIuNGUZmiaM0lsD89DsecKVUPHnvTYheX0QNVUvEBLgHTOqA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1
+https://mmbiz.qpic.cn/mmbiz_jpg/IIMKg13LHKibretj7loHtP6vBxMiaXsWfOicwnuJl1PIuNGUZmiaM0lsD89DsecKVUPHnvTYheX0QNVUvEBLgHTOqA/640?wx_fmt=jpeg&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1
 实验结果惊人，被测者的视力水平有了大幅提高，在普通视力表中看不清的字母现在也能看清楚了。
 人的心与身之间，意念与躯体之间，存在着奇异而隐秘的联系。
 如果相信它会影响你，它就会；如果你不相信，它就不会。
-倒时钟 #  好莱坞曾拍一部名为《倒时钟(Counter Clockwise) 》电影，影片基于一个真实的实验案例。
+倒时钟 好莱坞曾拍一部名为《倒时钟(Counter Clockwise) 》电影，影片基于一个真实的实验案例。
 一位名为艾伦·朗格的实验心理学教授在 1979 年做过一个实验：
  在美国匹兹堡的一个修道院中，她精心搭建了一个“时空胶囊”，将它布置得和 20 年前一模一样。 她邀请了 16 位七八十岁的老人，随机分为 8 人一组。 一组人让他们生活在时空胶囊里一个星期。在这一周内，人们沉浸在 1959 年的环境里，听上世纪 50 年代的音乐，看 50 年代的电影和情景喜剧，读 50 年代的报纸和杂志，讨论美国第一次发射人造卫星等 50 年代的国际时事等；他们需要像在 20 年前一样打理生活的一切，从起床、穿衣服到收拾碗筷以及走路。 而另一组，则是在完全相同的饮食作息条件下，用怀旧的方式回忆和谈论 1959 年发生的事。
  实验的结果是，两组老人的身体素质都有了明显改善。
 而“活”在 20 年前的老人们进步更加惊人，他们手脚更加敏捷，智力测验中得分更高。甚至局外人，在看到他们实验前后的照片，几乎不敢相信自己的眼睛。
 生理会引起心里的变化，心念更能导致生理的改变。
-最后 #  很多人固执地认为衰老和人体机能减弱有着必然的联系，这种思维定势极具杀伤力。</description>
+最后 很多人固执地认为衰老和人体机能减弱有着必然的联系，这种思维定势极具杀伤力。</description>
     </item>
     
     <item>
@@ -137,9 +206,9 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 20:14:30 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/project/e-commerce/shopee-instruction/</guid>
-      <description>分销下单 铺货 #  汇率 #   https://themoneyconverter.com/CN
+      <description>分销下单 铺货 汇率 https://themoneyconverter.com/CN
 1 CNY = 4.4299 TWD 1 CNY = 0.66289 MYR
-发货 #  注意事项 #  分单 #  快递单号+此快递包裹需分单发货</description>
+发货 注意事项 分单 快递单号+此快递包裹需分单发货</description>
     </item>
     
     <item>
@@ -148,11 +217,11 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 20:08:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/gaokao-fangfalun/</guid>
-      <description>高考移民-华侨生联考 #  希腊 #  一套房产（175-210 万元人民币，约合 25-30 万欧元），即可获赠全家三代人的希腊 PR（绿卡）身份.
+      <description>高考移民-华侨生联考 希腊 一套房产（175-210 万元人民币，约合 25-30 万欧元），即可获赠全家三代人的希腊 PR（绿卡）身份.
 希腊没有移民监要求，办好绿卡后，你的主业仍可以在中国，即使不出去，也不影响你永续绿卡身份。
 有了这张绿卡，你的孩子就具备在国内一线城市上国际学校的资格，这些学校的 IB 课程、A-Level 课程，直接与英美教育体制接轨，孩子在国内也可以接受良好的中西融合教育，将来报考牛剑、英国 G5 或美国名校会更容易。
 华侨生联考，国内全日制本科稳进（91.5%直接录取，未达录取分数线的也有预科保底，无需复读重考），“逆袭”进清华、北大也不是梦！
-移民身份 #  高考加分 #  港澳台联考 #  如何消除 #  消除高考政策信息差 #   提前招生考试  消除学习工具信息差 #   费曼学习法  消除学习内容信息差 #   高考资料  </description>
+移民身份 高考加分 港澳台联考 如何消除 消除高考政策信息差  提前招生考试  消除学习工具信息差  费曼学习法  消除学习内容信息差  高考资料  </description>
     </item>
     
     <item>
@@ -161,7 +230,33 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 19:58:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/invest/Archive/money-credit-debt/</guid>
-      <description>货币、信贷和债务是如何运作的 #  Excerpt #  《原则 变化中的世界秩序》</description>
+      <description>Excerpt 《原则 变化中的世界秩序》
+ Bilibili,三十分钟看懂经济机器如何运转(中英）
+ 货币、信贷和债务是如何运作的
+理解货币、信贷和债务是如何运作的，这一点至关重要，因为从历史上看，人们最想争取的是财富，现在仍然是如此。而对财富的增加和减少产生最大影响的，就是货币和信贷。
+所以，如果你不理解货币和信贷是如何运作的，你就无法理解经济是如何运作的。如果不理解经济是如何运作的，你就不能理解哪些因素对经济状况有最重要的影响。而经济状况又是政治变化的最大驱动力，也是整个经济政治体系如何运作的最大驱动力。
+01 货币与信用永恒与普世的基本原理 所有实体——国家、公司、非营利组织和人民——都要一直面对同样的基本财务现实。
+ 它们有进来的钱(即收入)，也有流出的钱(即支出)，两者相减构成净收入。
+ 那些被世界各国广泛接受的钱（即货币）被称为储备货币。目前，世界上占主导地位的储备货币是美元，它是由美国中央银行，也就是美联储创造；它约占所有国际交易的 55%。
+其次是欧元，它是由欧元区国家的央行——欧洲央行创造的；它占所有国际交易的 25%左右。日元、人民币、英镑现在都是相对较小的储备货币，不过人民币的重要性正在快速增长。
+拥有储备货币的国家更容易大量借款(即创造信贷和债务)和创造大量货币 ，因为世界上其他国家会愿意持有这些债务和货币，它们可以用于世界各地的消费。
+对于没有储备货币的国家来说，当它们迫切需要储备货币来偿还以储备货币计价的债务，以及它们在购买东西时卖方希望它们以储备货币支付时，无法获得足够的储备货币来满足这些需求，就会导致他们破产。
+02 什么是金钱？ 1） 大多数货币和信用（尤其是现在存在的法定货币）是没有内在价值的， 2） 它们只是会计系统中的账目，很容易会被改变， 3） 这个系统的目的是帮助有效地分配资源，让生产力得以发展，让借贷双方都能得到回报， 4） 这个系统会定期地崩溃。
+基本面 虽然金钱和信贷与财富有关，但它们不是财富。 一个人不能仅仅通过创造更多的金钱和信贷来创造更多的财富。要创造更多的财富，就必须要有更高的生产力。
+通常情况下，a)货币和信贷的创造与 b)商品、服务和投资资产的生产量之间存在着正相关关系，因此很容易混淆。
+货币和信贷在发放的时候是具有刺激作用的，而在需要偿还的时候则是具有压抑作用的。这就是货币、信贷和经济增长具有周期性的原因。
+控制货币和信贷的人（即中央银行），会通过改变货币和信贷的成本和供应量，以控制市场和整个经济。
+我们可以这样看，央行手中有一瓶刺激剂，他们可以根据需要向经济中注入刺激剂，而瓶中的刺激剂数量是有限的。 当市场和经济下行时，他们注入货币和信贷这种刺激剂来提振市场；当市场过热时，他们会减少刺激剂。 这些动作会导致货币和信贷、商品、服务和金融资产的数量和价格的周期性上涨和下跌。这些动作通常以 *短期债务周期和长期债务周期的形式出现*。
+短期的涨跌周期一般持续 8 年左右，或多或少都会有一次。而时间的长短，是由刺激剂提升需求到实体经济达到生产能力的极限所需要的时间来决定的。它们一般被称为 &amp;ldquo;商业周期&amp;rdquo;，不过我称它们为 &amp;ldquo;短期债务周期&amp;rdquo;，以区别于 &amp;ldquo;长期债务周期&amp;rdquo;。
+在较长的时间里，这些短期债务周期加起来，就变成了通常会持续 50-75 年左右的长期债务周期。
+最近的一个大的长期债务周期，也就是我们现在所处的这个周期，是 1944 年在新罕布什尔州的布雷顿森林设计的，是在 1945 年二战结束，我们开始建立美元/美国主导的世界秩序时，才开始实施的。
+ 当央行失去了创造货币和信贷增长从而实现真正的经济增长的能力时，央行的刺激能力就会终结。
+这种情况通常发生在债务水平高企、利率无法合适的降低、货币和信贷的创造使金融资产价格的增长超过实际经济活动增长的时候。
+在这种时候，那些持有债务（也就是别人承诺给他们的货币）的人通常会想把他们所持有的货币债务换成其他的存量财富。
+当人们普遍认为那些货币和债务资产不再是很好的财富贮藏手段时，长期债务周期就走到了尽头，货币体系的结构调整就会发生。
+换句话说，长期债务周期从 1）很低的债务水平和债务负担（这就给了那些控制货币和信贷增长的人足够的能力去创造债务，并且有了债务，就能给借款人创造购买力，持有债务资产的出借人获得良好实际回报的可能性就很大）到 2）很高的债务水平和债务负担，几乎没有空间给借款人创造购买力，出借人获得良好回报的可能性很低。
+到了长期债务周期的末期，瓶子里基本上已经没有刺激剂了（也就是说，央行没有能力再延长债务周期了），所以需要进行债务重组或债务贬值来降低债务负担，让这个周期重新开始。
+ 03 长期债务周期 1.无债务或低债务和 &amp;ldquo;硬通货 &amp;quot; 当货币出现在人类社会的早期，人们使用过各种各样的东西当做货币，比如谷物和珠子。但大多数情况下，他们使用的是有内在价值的东西，比如金、银和铜。我们把它叫做 &amp;ldquo;硬通货&amp;rdquo;。</description>
     </item>
     
     <item>
@@ -170,12 +265,12 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 19:34:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/du-shu-yu-huan-jing/</guid>
-      <description>多读一年书到底能带来多少收入？ #  获奖人乔舒亚·安格里斯特和克鲁格的研究:
+      <description>多读一年书到底能带来多少收入？ 获奖人乔舒亚·安格里斯特和克鲁格的研究:
 “多上一年学，本身对一个人日后的收入水平就是有正向影响的，这一影响不是由其他因素造成的，而纯粹是由教育带来的回报。接受 12 年教育的人比接受 11 年教育的人的收入增加 12%，接受 16 年教育的人比接受 11 年教育的人收入高出 65%。”
-上重点大学是不是比上普通大学， 回报更高？ #  给定学生的大学申请数量以及所申请大学的选拔水平，同时控制其他一些反映个人能力和家庭背景的控制变量，选择藤校或公立大学的学生在未来收入上并无显著的差别。
-上重点中学，是不是比上普通中学，回报更高？ #  进入这些精英中学学习，相比于在普通公立高中学习，并没有使学生取得更为优秀的大学入学资格考试成绩。
-最终 #  读书本身，对提高一个人的见识、格局，有极大的帮助。而当一个人的见识、格局提高了，还愁赚不到钱吗？
-[[https://mp.weixin.qq.com/s/qXiUKydkG0fH9lvGD2Zxzg][点击此处请看原文]] </description>
+上重点大学是不是比上普通大学， 回报更高？ 给定学生的大学申请数量以及所申请大学的选拔水平，同时控制其他一些反映个人能力和家庭背景的控制变量，选择藤校或公立大学的学生在未来收入上并无显著的差别。
+上重点中学，是不是比上普通中学，回报更高？ 进入这些精英中学学习，相比于在普通公立高中学习，并没有使学生取得更为优秀的大学入学资格考试成绩。
+最终 读书本身，对提高一个人的见识、格局，有极大的帮助。而当一个人的见识、格局提高了，还愁赚不到钱吗？
+[[https://mp.weixin.qq.com/s/qXiUKydkG0fH9lvGD2Zxzg][点击此处请看原文]]</description>
     </item>
     
     <item>
@@ -184,7 +279,12 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 16:00:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/inbox/domain-register/</guid>
-      <description> State &amp;ldquo;DONE&amp;rdquo; from [2022-03-12 周六 16:00]  metaverse #  </description>
+      <description>域名是需要每年续费的，不续费就会过期，过期之后就会被删除，也就回到了“未注册”的状态，这个时候，任何人都可以重新注册这个域名了。
+Sedo.com 世界上最大的域名交易网站，可以注册在 Sedo 搜索中意的域名，很有可能这个域名正在出售中。
+Pool.com 最大的过期域名抢注商，每天公布即将过期的域名，并帮助你抢注，抢注成功只收 60 美金的手续费，不成功不收钱
+具体的操作办法如下：
+ 访问 Pool.com 并点击上方的“Deleting Domains”菜单，然后点击页面底部的“Download the Full List” 下载所有即将删除的域名列表。 解压后这个列表是个 txt 文档，每一行一个域名，如果你在 Linux 或 Mac 的系统里，运行一个简短的 Shell 脚本：  #!/bin/shfname=”$1″exec&amp;lt;$fnameregex=&amp;#39;^([a-z]{1,1})([a|e|i|o|u]{1,1})([a-z]{1,4})\.com(.+)&amp;#39;while read linedoif [[ “$line” =~ $regex ]];thenecho $linefidone 判断是否是长度 6 位以内、并且第二个字母是元音的.com 域名.  为什么第二个字母要元音（a,e,i,o,u）呢?
+因为根据发音规则，第二个字母是元音的话，域名的可读性更强，比如 facebook, youtube, vimeo, mint, techcrunch, google, yahoo 等都符合这个规则， twitter 是极其少见的前两位合成一个双音节声母，导致元音后移到了第三位。</description>
     </item>
     
     <item>
@@ -193,11 +293,11 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/chainlink/</guid>
-      <description>Chainlink #  比特币、以太坊这样的去中心化系统提供了最小化信任特性，使得它们成为全球化、低摩擦的协作平台。但是归根到底，它们都是一个封闭的系统，其最小化信任特性也仅限于系统内部，它们对区块链外部数据是不提供保证的。
+      <description>Chainlink 比特币、以太坊这样的去中心化系统提供了最小化信任特性，使得它们成为全球化、低摩擦的协作平台。但是归根到底，它们都是一个封闭的系统，其最小化信任特性也仅限于系统内部，它们对区块链外部数据是不提供保证的。
 白皮书的介绍，Chainlink 通过使用 API 将链上和链外联系起来。它通过获取链上资源（如以太坊、比特币和 Hyperledger 等区块链），并通过 API 将其连接到链下资源（如市场数据、银行支付、零售支付、后端系统、事件数据等）来实现链下数据与链上智能合约的交互。
 通过引入多个节点以提供“去中心化”特性，同时分发代币激励去引导众多节点诚实地执行工作
-官网： http://www.smartcontract.com/link
-白皮书： https://link.smartcontract.com/whitepaper</description>
+官网：http://www.smartcontract.com/link
+白皮书：https://link.smartcontract.com/whitepaper</description>
     </item>
     
     <item>
@@ -206,13 +306,14 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/create-nfts/</guid>
-      <description>Reference #   NFT制作与OpenSea部署教程
-Resource #  NFT Brownie Mix #  工作代码库，有非常多样板代码。
-Metamask #  Infura #  Infura 是出色的开放以太坊节点，它免费提供了标准的 RPC API 可供开发者 调用。除了支持以太坊，Infura 还提供 IPFS 网关和 API，并且提供多个 数字货币交易所的行情信息 API。
+      <description>Reference  NFT制作与OpenSea部署教程
+Resource NFT Brownie Mix 工作代码库，有非常多样板代码。
+Metamask Infura Infura 是出色的开放以太坊节点，它免费提供了标准的 RPC API 可供开发者 调用。除了支持以太坊，Infura 还提供 IPFS 网关和 API，并且提供多个 数字货币交易所的行情信息 API。
 为开发人员提供了一种不必运行全节点就可以连接以太坊网络的方法
 Infura 是一种 IaaS（Infrastructure as a Service）产品，目的是为了降低访问以太坊数据的门槛。可以让你的 dApp 快速接入以太坊的平台，不需要本地运行以太坊节点。
 Infura 是由唯一的一家供应商运营的——以太坊开发工作室 Consensys——它依赖于亚马逊托管的云服务器。
-Install #  eth-brownie #  git clone https://github.com/PatrickAlphaC/nft-mix cd nft-mix pip install eth-brownie # apt install npm npm install -g ganache-cli .env #  export PRIVATE_KEY=YOUR_KEY_HERE export WEB3_INFURA_PROJECT_ID=YOUR_PROJECT_ID_HERE   your_key_here PRIVATE_KEY:(MetaMask: Account Details &amp;ndash;&amp;gt; Export Private Key)</description>
+Install eth-brownie git clone https://github.com/PatrickAlphaC/nft-mixcd nft-mixpip install eth-brownie# apt install npmnpm install -g ganache-cli.env export PRIVATE_KEY=YOUR_KEY_HEREexport WEB3_INFURA_PROJECT_ID=YOUR_PROJECT_ID_HERE  your_key_here PRIVATE_KEY:(MetaMask: Account Details &amp;ndash;&amp;gt; Export Private Key)
+  your_project_id_here Web3 Infura Project ID</description>
     </item>
     
     <item>
@@ -221,10 +322,10 @@ Install #  eth-brownie #  git clone https://github.com/PatrickAlphaC/nft-mix cd 
       <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/erc/</guid>
-      <description>ERC #  ERC 是 Ethereum Request for Comments（以太坊征求意见提案）的缩写,，代表以太坊已正式化的提案.
-ERC-721 #  NFT 是一种区块链代币标准,遵守的代币标准 ERC721.
-ERC-20 #  “可置换”代币，这意味着那些代币是可被替换的 (replaceable) 和可互相兑换 (interchangeable)
-ERC-1155 #  在一定程度上融合了 ERC-20 和 ERC-721 的功能。</description>
+      <description>ERC ERC 是 Ethereum Request for Comments（以太坊征求意见提案）的缩写,，代表以太坊已正式化的提案.
+ERC-721 NFT 是一种区块链代币标准,遵守的代币标准 ERC721.
+ERC-20 “可置换”代币，这意味着那些代币是可被替换的 (replaceable) 和可互相兑换 (interchangeable)
+ERC-1155 在一定程度上融合了 ERC-20 和 ERC-721 的功能。</description>
     </item>
     
     <item>
@@ -233,10 +334,10 @@ ERC-1155 #  在一定程度上融合了 ERC-20 和 ERC-721 的功能。</descrip
       <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/ethereum/</guid>
-      <description>简述 #  智能合约平台 #  以太坊是第一个实现了虚拟机的区块链，因此为智能合约 - Smart Contract - 的运行提供了良好的支持环境。也正因为这个原因，以太坊被称为区块链 2.0，以区别于比特币代表的以数字加密货币为核心特征的区块链 1.0。
+      <description>简述 智能合约平台 以太坊是第一个实现了虚拟机的区块链，因此为智能合约 - Smart Contract - 的运行提供了良好的支持环境。也正因为这个原因，以太坊被称为区块链 2.0，以区别于比特币代表的以数字加密货币为核心特征的区块链 1.0。
 将智能合约理解为机器之间的合同约定，在满足一定条件时自动 执行约定好的逻辑，例如在保险理赔流程中，如果理赔条件满足就自动 将赔偿金释放给出险人，这个流程就可以使用智能合约来实现。
-JSON RPC #  去中心化应用（DApp）
- </description>
+JSON RPC 去中心化应用（DApp）
+  </description>
     </item>
     
     <item>
@@ -245,11 +346,11 @@ JSON RPC #  去中心化应用（DApp）
       <pubDate>Sat, 12 Mar 2022 15:19:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/nft/</guid>
-      <description>NFT #  NFTs (Non-Fungible Tokens，不可置换代币) 可以用一个词来总结：唯一性。这些是部署在区块链上的智能合约，代表着某种东西的唯一性。
+      <description>NFT NFTs (Non-Fungible Tokens，不可置换代币) 可以用一个词来总结：唯一性。这些是部署在区块链上的智能合约，代表着某种东西的唯一性。
 NFT 是区块链的一种应用，最大特点就是把网址写入区块链。
 NFT 包含的网址是没法改的，然后可以通过区块链的买卖机制，跟某一个数字钱包相关联。
 如果某个区块在你的数字钱包名下，该区块所包含的网址自然也会在你的名下。所以，NFT 很适合作为 *网址的所有权证书*。
-Reference #    一文读懂NFT：全面解析NFT发展简史、价值及未来  </description>
+Reference   一文读懂NFT：全面解析NFT发展简史、价值及未来  </description>
     </item>
     
     <item>
@@ -258,14 +359,14 @@ Reference #    一文读懂NFT：全面解析NFT发展简史、价值及未来  
       <pubDate>Sat, 12 Mar 2022 12:05:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/filecoin/</guid>
-      <description>Filecoin #  Filecoin 是一个去中心化的存储网络，能将海量用户的闲散存储资源充分利用起来，从而构建一套超低成本的可靠存储系统。
+      <description>Filecoin Filecoin 是一个去中心化的存储网络，能将海量用户的闲散存储资源充分利用起来，从而构建一套超低成本的可靠存储系统。
 没有中心，所以会用到区块链技术.
 一般区块链使用的是算力挖矿的工作量证明（Proof-of-Work mining），而 Filecoin 使用的是存储工作量证明(Proof-of-Storage)。
-Filecoin 架构 #  我们可以把 Filecoin 简化为两层:
+Filecoin 架构 我们可以把 Filecoin 简化为两层:
  一个是区块链，主要是记录全网状态（一个去中心化的状态机），包括所有钱包账户和余额，市场订单匹配记录。 一个是存储的解决方案，主要包括副本策略（纠删码，多副本），端到端加密，存储时间和续费策略，存储市场匹配等。  它主要包括 4 种角色：
- 存储矿工（Storage miners）： 将自己的磁盘抵押出来，提供存储服务，类似云厂商的对象存储 检索矿工（Retrieval miners）：可以帮助用户快速的检索到内容，类似于传统意义的 CDN 存储客户端（Storage clients）：能够上传内容到 Filecoin，类似对象存储上传客户端 检索客户端（Retrieval clients）：能够从 Filecin 检索到内容，类似对象存储下载客户端  市场 #  Filecoin 一共有两个市场:
+ 存储矿工（Storage miners）： 将自己的磁盘抵押出来，提供存储服务，类似云厂商的对象存储 检索矿工（Retrieval miners）：可以帮助用户快速的检索到内容，类似于传统意义的 CDN 存储客户端（Storage clients）：能够上传内容到 Filecoin，类似对象存储上传客户端 检索客户端（Retrieval clients）：能够从 Filecin 检索到内容，类似对象存储下载客户端  市场 Filecoin 一共有两个市场:
  存储市场 检索市场  只有存储矿工才有系统的奖励，才真正属于IPFS的挖矿(系统的奖励).
-挖矿 #  挖矿就是在 Filecoin 网络中获取虚拟货币（FIL），主要可以通过以下途径：
+挖矿 挖矿就是在 Filecoin 网络中获取虚拟货币（FIL），主要可以通过以下途径：
  成为存储矿工，在市场中通过报价的方式出租存储空间，当匹配成功，将获取相应报酬 成为检索矿工，帮助内容下载客户端下载内容 成为数据修复矿工，帮助修复丢失或损坏的数据  </description>
     </item>
     
@@ -275,7 +376,7 @@ Filecoin 架构 #  我们可以把 Filecoin 简化为两层:
       <pubDate>Sat, 12 Mar 2022 12:05:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/ipfs-and-filecoin/</guid>
-      <description>区别 #   IPFS addresses and moves content; Filecoin is the missing incentive layer。
+      <description>区别  IPFS addresses and moves content; Filecoin is the missing incentive layer。
  IPFS 主要负责 P2P 网络中的内容寻值和内容传输，而 Filecoin 是内容永久存储的激励层(运行在ipfs上)，它们之间是相互补充的关系。
 Filecoin与IPFS是两个项目:
  IPFS是底层协议，并没有ICO. Filecoin进行了ICO，代币名称为FIL。  Filecoin的代币总量20亿，70%用于奖励矿工.    </description>
@@ -287,11 +388,11 @@ Filecoin与IPFS是两个项目:
       <pubDate>Sat, 12 Mar 2022 12:03:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/emerging/blockchain/ipfs/</guid>
-      <description>IPFS #  IPFS 全称为 Inter Planetary File System. 星际文件系统.
- 用于存储和访问文件、网站、应用程序和数据的分布式文件系统。 “一个点对点的超媒体传输协议”.点对点的分布式文件存储系统. 它的目标是成为更快、更安全、更开放的下一代互联网,用来替代传统中心化的服务器模式. 所有的IPFS节点组成一个分布式网络，每个节点都可以存储文件. 用户可以从IPFS构建的网络中以DHT(Distributed Hash Table，分布式哈希表) 的方式获取文件.  工作原理 #  IPFS 可以从本质上改变网络数据的分发机制
+      <description>IPFS IPFS 全称为 Inter Planetary File System. 星际文件系统.
+ 用于存储和访问文件、网站、应用程序和数据的分布式文件系统。 “一个点对点的超媒体传输协议”.点对点的分布式文件存储系统. 它的目标是成为更快、更安全、更开放的下一代互联网,用来替代传统中心化的服务器模式. 所有的IPFS节点组成一个分布式网络，每个节点都可以存储文件. 用户可以从IPFS构建的网络中以DHT(Distributed Hash Table，分布式哈希表) 的方式获取文件.  工作原理 IPFS 可以从本质上改变网络数据的分发机制
  每个文件及其中的所有块都被赋予一个称为加密散列的唯一指纹。 IPFS 通过网络删除重复具有相同哈希值的文件，通过计算是可以判断哪些文件是冗余重复的。并跟踪每个文件的版本历史记录。 每个网络节点只存储它感兴趣的内容，以及一些索引信息，有助于弄清楚谁在存储什么。 查找文件时，你通过文件的哈希值就可以在网络查找到储存改文件的节点，找到想要的文件。 使用称为 IPNS（去中心化命名系统），每个文件都可以被协作命名为易读的名字。通过搜索，就能很容易地找到想要查看的文件。  从 IPFS 的介绍可以看出， IPFS 设想的是让所有的网络终端节点不仅仅只充当 Browser 或 Client 的角色，其实人人都可以作为这个网络的运营者，人人都可以是服务器。
-基本使用 #  Install &amp;amp; use #  参考官网： https://ipfs.io/docs/install 使用参考： https://ipfs.io/docs/getting-started
-wget https://dist.ipfs.io/go-ipfs/v0.4.14/go-ipfs_v0.4.14_linux-amd64.tar.gz tar xvfz go-ipfs_v0.4.14_linux-amd64.tar.gz cd go-ipfs ./install.sh # test ipfs help # start ipfs init # start daemon to keep connection with internet ipfs daemon &amp;amp; # show point connectted on IPFS ipfs swarm peers Practice #  上传GitHub Pages主页到IPFS</description>
+基本使用 Install &amp;amp; use 参考官网：https://ipfs.io/docs/install 使用参考：https://ipfs.io/docs/getting-started
+wget https://dist.ipfs.io/go-ipfs/v0.4.14/go-ipfs_v0.4.14_linux-amd64.tar.gztar xvfz go-ipfs_v0.4.14_linux-amd64.tar.gzcd go-ipfs./install.sh# testipfs help# startipfs init# start daemon to keep connection with internetipfs daemon &amp;amp;# show point connectted on IPFSipfs swarm peersPractice 上传GitHub Pages主页到IPFS</description>
     </item>
     
     <item>
@@ -309,7 +410,7 @@ wget https://dist.ipfs.io/go-ipfs/v0.4.14/go-ipfs_v0.4.14_linux-amd64.tar.gz tar
       <pubDate>Wed, 09 Mar 2022 23:10:43 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/medidation-instruction/</guid>
-      <description>Instruction #  Meditation is a practice in which an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state.
+      <description>Instruction Meditation is a practice in which an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state.
 Mindfulness is the practice of purposely bringing one&amp;rsquo;s attention in the present moment without evaluation,a skill one develops through meditation or other training Refine every day.</description>
     </item>
     
@@ -319,7 +420,7 @@ Mindfulness is the practice of purposely bringing one&amp;rsquo;s attention in t
       <pubDate>Wed, 09 Mar 2022 09:58:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/securities-history-back/</guid>
-      <description>证券历史大事记 #  Table 1:证券历史大事记   时间 大事记 备注 阶段     1984-11-14 上海飞乐音响公司“小飞乐”股票发行 改革开放后发行的第一只股票 股民 1.0 时代（1984-1990）   1985 股票横空出世在上海滩  股民代表：个体户（暴发户）   1988-7-18 上海万国证券公司成立 第一家专业证券公司    1990-12-19 ： 上海证券交易所 正式成立     1991-7-11 上海证券交易所推出股票账户，逐渐取代股东名卡     1992-3-2 上海股票认购证第一次摇号  股民 2.0 时代（1992-2000）   1993-5-21 上海证券交易所放开了上市股票的价格限制，并实行“T+0”交易规则，引发股市暴涨  股民代表：个体工商户、上市公司的内部职工等   1992-10-12 中国证券监督管理委员会成立 中国的股票交易走上了正规化和法制化的轨道    1999-5-19 《人民日报》发表特约评论员文章 “5·19 行情”启动    1999-7-1 《证券法》正式实施 证券市场集中统一的监管体制建立    2000-12-4  著名的国有股减持圈钱再次提起,股市应声下跌 3 个月。 股民 3.</description>
+      <description>证券历史大事记 Table 1:证券历史大事记   时间 大事记 备注 阶段     1984-11-14 上海飞乐音响公司“小飞乐”股票发行 改革开放后发行的第一只股票 股民 1.0 时代（1984-1990）   1985 股票横空出世在上海滩  股民代表：个体户（暴发户）   1988-7-18 上海万国证券公司成立 第一家专业证券公司    1990-12-19 ： 上海证券交易所 正式成立     1991-7-11 上海证券交易所推出股票账户，逐渐取代股东名卡     1992-3-2 上海股票认购证第一次摇号  股民 2.0 时代（1992-2000）   1993-5-21 上海证券交易所放开了上市股票的价格限制，并实行“T+0”交易规则，引发股市暴涨  股民代表：个体工商户、上市公司的内部职工等   1992-10-12 中国证券监督管理委员会成立 中国的股票交易走上了正规化和法制化的轨道    1999-5-19 《人民日报》发表特约评论员文章 “5·19 行情”启动    1999-7-1 《证券法》正式实施 证券市场集中统一的监管体制建立    2000-12-4  著名的国有股减持圈钱再次提起,股市应声下跌 3 个月。 股民 3.</description>
     </item>
     
     <item>
@@ -356,7 +457,7 @@ Mindfulness is the practice of purposely bringing one&amp;rsquo;s attention in t
       <pubDate>Tue, 08 Mar 2022 18:47:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/project/canyin/kuaican/</guid>
-      <description>简介 #  现在的快餐大概 10 元一份，好一点的 15 到 20 元不等。因为附近是人流聚集区，所以价格比较高，离电子城不远的一个工业区那边快餐只要五六块，好一点的七八块一份。
+      <description>简介 现在的快餐大概 10 元一份，好一点的 15 到 20 元不等。因为附近是人流聚集区，所以价格比较高，离电子城不远的一个工业区那边快餐只要五六块，好一点的七八块一份。
 首先去找到工业区的餐馆谈，你就说你批发他们家的快餐，然后把价格压低一些。记住多找几家快餐店。然后把顾客经常点的快餐写进你的菜单，再给你的快餐起个名字叫极速快餐。如果有顾客来点餐，你也不需要自己做菜，只要把这些低价批发过来的快餐加热一下就可以卖出去了。
 然后你找到做鼠标垫的厂家，把你的广告词印到鼠标垫上：点餐就点“极速快餐”！当然还要印上联系方式。然后去电子城和附近的小区挨家挨户发放鼠标垫，告诉他们以后鼠标垫都是免费赠送的。坏了，不喜欢了，打电话给我，我再免费送。
 这样顾客在想要点餐的时候，只要看到鼠标垫，就会知道这家店的联系方式，下单成功的概率会比宣传单高很多，因为鼠标垫是长期使用的，而宣传单一般都是到手就扔。</description>
@@ -368,7 +469,7 @@ Mindfulness is the practice of purposely bringing one&amp;rsquo;s attention in t
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/invest/general/about-fund/</guid>
-      <description>fund #  基金的组织形式通常是采取 有限合似制 ，而非公司制。这是因为有限合伙只涉及一次征税，即退出 的时候交税。
+      <description>fund 基金的组织形式通常是采取 有限合似制 ，而非公司制。这是因为有限合伙只涉及一次征税，即退出 的时候交税。
 如果是有限责任公司，就涉及两层税制，公司层面交一次企业所得税，分红的时候交一次个人所得税。</description>
     </item>
     
@@ -378,19 +479,21 @@ Mindfulness is the practice of purposely bringing one&amp;rsquo;s attention in t
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/invest/general/about-invest/</guid>
-      <description>投资关系 #   一级市场（未上市前的公司）私募股权投资可以根据所投资标的成长阶段分为几个种类，
- 第一步是 天使基金(种子、天使、PreA 轮)， 第二是 VC 基金(A-C 轮)，第三是 PE 基金（（轮后到上 市）。  LP 有限合伙人 #  （Limited Partner）
+      <description>投资关系   一级市场（未上市前的公司）私募股权投资可以根据所投资标的成长阶段分为几个种类，
+ 第一步是 天使基金(种子、天使、PreA 轮)， 第二是 VC 基金(A-C 轮)，第三是 PE 基金（（轮后到上 市）。  LP 有限合伙人 （Limited Partner）
 出资人
 在美国，绝大多数情况下，LP 都有一个最低投资额度——这个数字一般是 600 万美金，中国的话大多都是 600 万人民币。
 为了避免一个 LP 注资过多，大多数公司也会有一个最高投资额度——常见的则是由 1000 万至 2000 万不等。
 一般 LP 的资金都会有一个锁定周期（Lock-Up Period），一般为一年至数年不等（要看公司具体投资的项目而定）。
 在合伙企业不能清偿到期债务时，LP 仅以其对有限合伙企业的出资为限承担责任，剩余的由 GP 承担无限连带责任。
 一般 GP 投 1%， LP 投 99%
-GP 普通合伙人 #  (General Partner)
+GP 普通合伙人 (General Partner)
 大 GP 的收入一般是所谓 2/20，就是 2%的管理费+20%的收益分成（Carry）.
 GP 就是负责募、投、管、退，这四个主要职责，对基金的收益负责。
 普通合伙人是指在合伙企业中对合伙企业的债务依法承担无限连带责任的自然人、法人和其他组织。
-GP 需要对合伙企业债务承担无限连带责任，为了尽可能规避经营风险，实践中一般选择有限责任公司作为 GP 主体。</description>
+GP 需要对合伙企业债务承担无限连带责任，为了尽可能规避经营风险，实践中一般选择有限责任公司作为 GP 主体。
+Angels 天使投资 （Angel Investment）
+天使投资选择的企业都会是一些非常非常早期的企业，他们甚至没有一个完整的产品，或者仅仅只有一个概念。</description>
     </item>
     
     <item>
@@ -399,17 +502,17 @@ GP 需要对合伙企业债务承担无限连带责任，为了尽可能规避�
       <pubDate>Tue, 08 Mar 2022 17:25:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/invest/general/basic-concpetion/</guid>
-      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2022-02-12 周六 08:59]  OMO 公开市场操作 #  (Open market operations) #  公开市场操作是中央银行吞吐基础货币，调节市场流动性的主要货币政策工具，通过中央银行与市场交易对手进行有价证券和外汇交易，实现货币政策调控目标。
+      <description>State &amp;ldquo;DONE&amp;rdquo; from &amp;ldquo;TODO&amp;rdquo; [2022-02-12 周六 08:59]  OMO 公开市场操作 (Open market operations) 公开市场操作是中央银行吞吐基础货币，调节市场流动性的主要货币政策工具，通过中央银行与市场交易对手进行有价证券和外汇交易，实现货币政策调控目标。
 中国公开市场操作包括人民币操作和外汇操作两部分。
 从交易品种看，中国人民银行公开市场业务债券交易主要包括回购交易、现券交易和发行中央银行票据。
-回购交易 #    正回购 为中国人民银行向一级交易商卖出有价证券，并约定在未来购回的行为。央行进行正回购操作为回收流动性，正回购到期则为投放流动性。
+回购交易   正回购 为中国人民银行向一级交易商卖出有价证券，并约定在未来购回的行为。央行进行正回购操作为回收流动性，正回购到期则为投放流动性。
   逆回购 为中国人民银行向一级交易商购买有价证券，并约定在未来由一级交易商购回的行为。央行进行逆回购操作为投放流动性，逆回购到期则为回收流动性。
-  现券交易 #    现券买断 央行直接从二级市场买入债券，一次性地投放基础货币；
+  现券交易   现券买断 央行直接从二级市场买入债券，一次性地投放基础货币；
   现券卖断 为央行直接卖出持有债券，一次性地回笼基础货币。
-  中央银行票据 #  即中国人民银行发行的短期债券，央行通过发行央行票据可以回笼基础货币，央行票据到期则体现为投放基础货币。
-note #  OMO、MLF 和 LPR 是央行针对不同期限和不同目标的利率调整工具。
+  中央银行票据 即中国人民银行发行的短期债券，央行通过发行央行票据可以回笼基础货币，央行票据到期则体现为投放基础货币。
+note OMO、MLF 和 LPR 是央行针对不同期限和不同目标的利率调整工具。
 理论上来看，OMO、MLF 以及 LPR 三者变化实现不同的政策效果，并且调整利率曲线变化，因而三者不一定需要同时变化.
-MLF 中期借贷便利 #  （Medium-term Lending Facility） #  feature #   央行借钱给商业银行(有门槛的，就是质押品) 操作时段一般为 3 个月、6个月、1年。  function #   为了增加市场流动性  LPR 贷款市场报价利率 #  (Loan Prime Rate) k #  LPR 浮动利率是由 LPR 市场报价利率加基点构成的，基点数是固定的.</description>
+MLF 中期借贷便利 （Medium-term Lending Facility） feature  央行借钱给商业银行(有门槛的，就是质押品) 操作时段一般为 3 个月、6个月、1年。  function  为了增加市场流动性  LPR 贷款市场报价利率 (Loan Prime Rate) k LPR 浮动利率是由 LPR 市场报价利率加基点构成的，基点数是固定的.</description>
     </item>
     
     <item>
@@ -418,7 +521,7 @@ MLF 中期借贷便利 #  （Medium-term Lending Facility） #  feature #   央�
       <pubDate>Sun, 13 Feb 2022 11:15:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/ji-zhui-yu-shen-ti-jian-kang/</guid>
-      <description>脊椎 #  人体的脊椎由颈椎、胸椎、腰椎、骶椎和尾椎组成。
+      <description>脊椎 人体的脊椎由颈椎、胸椎、腰椎、骶椎和尾椎组成。
 其中颈椎 7 节，胸椎 12 节，腰椎 5 节，骶椎 5 节（当然有些人有腰椎骶化），骶椎成年以后融合成一块骶骨。
 尾椎幼年时是 3～5 块，成长的过程中尾椎也渐渐融合成一块尾骨。所以小孩子一出生应该是 32～34 节，成年人是 26 节。
 这 26 节脊椎中比较重要的是三部分：颈椎，胸椎，腰椎。
@@ -426,9 +529,9 @@ MLF 中期借贷便利 #  （Medium-term Lending Facility） #  feature #   央�
  颈神经 8 对 胸神经 12 对 腰神经 5 对 骶神经 5 对 尾神经 1 对  每一对神经都从脊椎间的空隙穿出。
 这 31 对脊神经犹如脊椎上放出的 62 根“电线”，线的末端牵着五脏六腑。
  脊椎节段神经与脏器相关关系示意
- https://mmbiz.qpic.cn/mmbiz_jpg/3wo2f6KZxVQ0HITflpYy12LUy1bORic0uDJTYFYJZtyibIP5iaRPLOcEe3ryqeS2nfjibibfvN4bT5ic2k1jpwYZmuyg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1
-脊神经 #  分为运动神经和自主神经。
- 运动神经主管皮肤和肌肉； 自主神经，主管内脏，所以自主神经也称为内脏神经，植物神经。  内脏神经分为交感神经和副交感神经.     https://mmbiz.qpic.cn/mmbiz_jpg/3wo2f6KZxVQ0HITflpYy12LUy1bORic0uIibg8Z23yauhf5QU61tib1p34ia89WJzdsCJ5oEGxClqCQYjHbIy6Tehw/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1</description>
+https://mmbiz.qpic.cn/mmbiz_jpg/3wo2f6KZxVQ0HITflpYy12LUy1bORic0uDJTYFYJZtyibIP5iaRPLOcEe3ryqeS2nfjibibfvN4bT5ic2k1jpwYZmuyg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1
+脊神经 分为运动神经和自主神经。
+ 运动神经主管皮肤和肌肉； 自主神经，主管内脏，所以自主神经也称为内脏神经，植物神经。  内脏神经分为交感神经和副交感神经.    https://mmbiz.qpic.cn/mmbiz_jpg/3wo2f6KZxVQ0HITflpYy12LUy1bORic0uIibg8Z23yauhf5QU61tib1p34ia89WJzdsCJ5oEGxClqCQYjHbIy6Tehw/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1</description>
     </item>
     
     <item>
@@ -437,7 +540,7 @@ MLF 中期借贷便利 #  （Medium-term Lending Facility） #  feature #   央�
       <pubDate>Sat, 12 Feb 2022 11:28:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/invest/options/basic/options/</guid>
-      <description>策略 #  见习 #  结果 #  </description>
+      <description>策略 见习 结果 </description>
     </item>
     
     <item>
@@ -446,7 +549,7 @@ MLF 中期借贷便利 #  （Medium-term Lending Facility） #  feature #   央�
       <pubDate>Fri, 11 Feb 2022 11:04:00 +0800</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/cai-gen-tan/</guid>
-      <description>修身 #   欲做精金美玉的人品，定从烈火中锻来；思立掀天揭地的事功，须向薄冰上履过。 一念错，便觉百行皆非，防之当如渡海浮囊，勿容一针之罅漏；万善全，始得一生无悔。修之当如淩去宝树，须假众以撑持。 忙处事为，常向闲中先检点，过举自稀。动时念想，预从静里密持，非心自息。 为善欲自高月胜人，施恩而欲要名结好，修业而欲惊世通话骇俗，植节而欲标 异见奇，此皆是善念中戈矛，理路上荆棘，最易夹带，最难拔除者也。须是涤尽渣滓，斩绝萌芽，才见本来真体。 能轻富贵，不能轻一轻富贵之心；能重义，又复重一重名义之念。是事境之芥蒂未扫。此处拔除不净，恐石去而复生矣。 纷扰固溺志之场，而枯寂亦心之地。故学者当栖心元默，以宁吾真体。亦当适志恬愉，以养吾圆机。 昨日之日不可留，留之则根烬复萌，而尘情终累乎理趣；今日之是不可执，执这则渣滓未化，而理趣反转为欲根。 无事便思有闲杂念想否。有事便思有浮意气否。得意便思有骄矜辞色否。失意便思有怨望情怀否。时时检点，到得从多入少、从有入无，才是学问的真消息。 士人有百折不回之 真心，才有万变不穷之妙用。立业建功，事事要从实地着脚，若少慕声，便成伪果；讲道修德，念念要从虚处立基，若稍计功效，便落尘情。 身不宜忙，而忙于闲暇之时，亦可儆惕惰气；心不可放，而放于收摄之后，亦可鼓畅天机。 钟鼓体虚，为声闻而招撞；麋鹿性逸，因豢养而受羁縻。可见名为招祸之本，欲乃散志之媒。学者不可不力为扫除也。 一念常惺，才避去神弓鬼矢；纤尘不染；方解开地网天罗。 一点不能说忍的念头，是生民生物之根芽；一段不为的气节，是撑地之柱石。故君子于一虫一蚁不忍伤残，一缕地丝勿容贪冒，便可为万物立命立心矣。 拨开世上尘氛，胸中自无火焰冰竞；消却心中鄙吝。眼前时有月到风来。 学者动静殊操、喧寂异趣，还是锻炼未熟，心神混淆故耳。须是操存涵养，定云止水中，有鸢飞鱼跃的景象；风狂雨骤处，有波恬浪静的风光，才见处一化齐之妙。 心是一颗明珠。以物欲障蔽之，犹明珠而混以泥沙，其洗涤犹易；以情识衬贴之，犹明珠而饰以银黄，其洗涤最难。故学者不患垢病，而洁病治；不畏事障，而畏理障之 难除。 躯壳的我要看得破，则万有空而其心常虚，虚则义理来居；性命和我要兴得真，则万理皆备而其心常实，实则物欲不入。 面上扫开十层甲，眉目才无可憎；胸中涤去数斗尘，语言方觉有味。 完得心是之本来，方可言了心；尽得世间之常道，才堪论岀世。 我果为洪炉大冶，何患顽金钝铁之不可陶熔。我果为巨海长江，何患横流污渎之不能容纳。 白日欺人，难逃清夜之鬼报；红颜失志，空贻皓首之悲伤。 以积货财之心积学问，以求功名之念求道德，以爱妻子之心爱父母，以保爵位之策保国家，岀此入彼，念虑只差毫末，而超凡入圣，人品且判星渊矣。人胡不猛然转念哉！ 立百福之基，只在一念慈祥，开万善之门，无如寸心挹损。 塞得物欲之路，才堪辟道义之门；弛得尘俗之肩，方可挑圣贤之担。 容得性情上偏私，便是一大学问；消得家庭内嫌雪，才为火内栽莲。 事理因人言而悟者，有悟还有迷，总不如自悟之了了；意兴从外境而得者，有得还有失，总不旭自处之休休。 情之同处即为性，舍情则性不可见，欲之公处即为理，舍欲则理不可明。故君子不能灭情，惟事平情而已；不能绝欲，惟期寡欲而已。 欲遇变而无仓忙，须向常时念念守得定；欲临死而无贪恋，段仙生时事事看得轻。一念过差，足丧生平之善；终身检饬，难盖一事之愆。 从五更枕席上参勘心体，气未动，情未萌，才见本来面目；向三时饮食中谙练世味，浓不欣，淡不厌，方为切实工夫。  应酬 #   操存要有真宰，无真宰则遇事便倒，何以植顶天立地之砥柱！应用要有圆机，无机则触物有碍，何以成旋乾转坤之经纶！ 士君子之涉世，于人不可轻为喜怒，喜怒轻，则心腹肝胆皆为人所窥；于物不可重为爱憎，爱憎重，则意气精神悉为物所制。 倚高才而玩世，背后须防影之虫；饰厚貌以欺人，面前恐有照之镜。 心体澄彻，常在明镜止水之中，则天下自无可厌之事；意气和平，常在丽日风之内，则天下自无可恶之人。当是非邪正之交，不可少迁就，少迁就则失从违之 正；值利害得失之 会，不可太分明，太分明则起避之私。 苍蝇附骥，捷则捷矣，难辞处后之羞；萝茑依松，高则高矣，未免仰攀之耻。所以君子宁以风霜自挟，毋为鱼鸟亲人。 好丑心太明，收物不分契；贤愚心太明，则人不亲。士君子从而是内精明而外浑厚，使好丑两得其平，贤愚共受其益，才是生的德量。 伺察以为明者，常因明南昌生暗，故君子以恬养智；奋迅以为速者，多因速度南昌致迟，故君子以重持轻。士君子 济人利物，宜居其名，居其名则德损；士大夫忧国为人，当有其心，不当有其语，有其语则毁来。 遇大事矜持者，小事必纵弛；处明庭检饰者，暗室必放逸。君子只是一个念头持到底，自然临小事如临大敌，坐密室若坐通衢。 使人有面前之誉，不若使其无背后之毁；使人有乍交之欢，不若使其无久处之厌。 善启迪人心者，当因其所而渐通之，毌强开其所闭；善移风化者，当因其所易而渐及之，毌轻矫其所难。 彩笔描空，笔不落色，而空亦不受染；利刀割水，刀不损锷，而水亦不留痕。得此意以持身涉世，感与应俱适，心与境两忘矣。 已之情欲不可纵，当用逆之之法以制之，其道只在一忍字；人之情欲不可拂，当用顺之之法以调之，其道只在一恕字。今人皆恕以适已而忍以制人，毌乃不可乎！ 好察非明，能察能不察之谓明；必胜非勇，能胜不胜之谓勇。 随时之内善救时，若和风之消酷暑；混俗之中能脱垢浊之尘缘；思岀世而无染者，段先谙尽世中滋味。否则无以持空寂之后苦趣。 与人者，与其易疏于终，不若难亲于始；御事者，与其巧持于后，不若拙守于前。 酷烈之祸，多起于玩之人；盛满炎功，常败于细微炎事。故语去：“人人道好，段防一人着脑；事事有功，采购防一事不终。” 功名富贵，直从灭处观究竟，则贪恋自轻；横逆困穷，直从起处究由来，则怨尤自息。 宇宙内事要力担当，又要善摆脱。不担当，则无经世之事业；不摆脱，则列出世之襟期。 待人而留有余，不尽之恩礼，则可以维系无厌之人心；御事而留有余，不尽之才智，则可以提防不测之事变。 了心自了事，犹根拔而草不生；逃世不逃名，似膻存蚋而仍集。 仇边之弩易避，而恩里之戈难防；苦 时之坎易逃，而乐处之阱难脱。 膻秽则蝇蚋丛嘬，芳磬则蜂蝶交侵。故君子不作垢业，亦不立芳名。只是元气浑然，圭角不露，便是持身涉世一安乐窝也。 从静中观物动，向闲处看人忙，才得超尘脱俗的趣味；遇忙处会偷闲，处闹中能取静，便是安身立命的工夫。 邀千百之欢，不如释一人之怨；希千百事之荣，不如免一事之丑。 落落者，难合亦难分；欣欣者，易亲亦易散。是以君子宁以刚方见惮，毌以媚悦取容。 意气与天下相期，如春风之鼓畅庶类，不宜存半点隔之形；肝胆与天下相照，似秋月之洞彻群品，不可作一毫暧昧之状。 仕途虽赫奕，常思林下的风味，则权且之念自轻；世途虽纷华，常思泉下的光景，则利欲之心自淡。鸿示至先援弓，兔已亡再呼，总非当机作用国风息时休起浪，岸到处便离船，才是了手工夫。 从热闹场中出几句清冷言语，便扫除无限杀机；向寒微路上用一点赤热心肠，自培植许多生意。随缘便是遣缘，似舞蝶与飞花共适；顺事自然无事，若满月偕盂水同圆。 淡泊之守，须从浓艳场中试来；镇定之操，还向纷纭境上勘过。不然操持未定，应用未圆，恐一临机登坛，而上品禅师又成一下品俗士矣。 廉所以戒贪。我果不贪，又何必标一廉名，以来贪夫之侧目。让所以戒争，又何必立一让的，以致暴客之弯弓。 无事常如有事时，提防才可以弥意外之变；有事常如无事时，镇定方可以消局中之危。 处世而欲人感恩，便为敛怨之道；遇事而为人除害，即是导利之机。 持身如泰山九鼎凝然不动，则愆尤自少；应吉若流水落花悠然而逝，则趣味常多。 君子严如介石南昌畏其难亲。鲜不以明珠为怪物而起胺剑之心；小人骨如脂南昌喜其易合，鲜不以互毒螫为甘饴而纵染指之欲。 遇事只一味镇定从容，纵纷若乱丝，终当就绪；待人无半毫矫伪欺隐，虽狡如鬼，亦自献诚。 肝肠煦若春风，虽囊无一文，还怜茕独；气骨清如秋水，纵家徒四壁，终傲王公。 讨了人事的便宜，必受天道的亏；贪发世味胡滋益，必招性分胡损。涉世者宜蕃择之，慎毌贪黄雀南昌坠深井，舍隋珠南昌弹飞禽也。费千金而结纳贤豪，熟若倾半瓢之粟，以济饥饿之人；构千楹而招来宾客，孰若葺数椽之茅，以庇孤寒之士。 解斗者助之以威，则怒气自平；惩贪者济之以欲，则利心反淡。所谓因其势而利导之，亦救时应变一权宜法也。 市恩不如报德之为。雪忿不若忍耻不高。要誉不如逃名之不适。矫情不若直节之为真。 救既败事者，如驭临之马，休轻策一鞭；图垂成之功者，如挽上滩之舟，莫少停一棹。/ 先达笑弹冠，休向侯门轻曳裾；相知犹按剑，莫从世路暗投珠。 杨修之躯见杀于曹操，以露已之长也；韦诞之墓见伐于钟繇，以秘已之美也。故哲士多匿采以韬光，至人常逊美而公善。 少年的人，不患其不奋迅，常患畚迅而成卤莽，故当抑其躁心；老成的人，不患其不持重，常患以持重而成退缩，故当振其惰气。 望重缙绅，怎似寒微之颂德。朋来海宇，何如骨肉之孚心。 舌存常见齿亡，刚强终不胜柔弱；户朽未闻枢蠹，偏执岂能及圆融。  评议 #   物莫大于天地日月，而子美云：“日月笼中鸟，亁坤水上萍。”莫事大于揖逊征诛，而康节云：“唐虞揖逊三杯酒，汤武征诛一局棋。”人能以此胸襟眼界吞吐六合，上下千古，事来如沤生大海，事去如影灭长空，自经纶万变而不动一尘矣。 君子好名，便起欺人之念；小人好名，犹怀畏人之心。故人而皆好名，则开诈善之门。使人而不好名，则绝为善之路。此讥好名者，当严责君子，不当过求于小人也。 大恶多从柔处伏，哲士须防绵里之针；深仇常自爱中来，达人宜远刀头之蜜。 持身涉世，不可随境而迁。须是大火流金而清风穆然，严霜杀物而和气蔼然，阴霾翳空而慧日朗然，洪涛倒海而坻柱屹我，方是宇宙内的真人品。爱是万缘之根，当知割舍。识是众欲之本，要力扫除。 作人要脱俗，不可存一矫俗这心；应世要随时，不可起一趋时之念。 宁有求全之毁，不可有过情之誉；宁有无妄之灾，不可有非分之福。 毁人者不美，而受人毁者遭一番讪谤便加一番修省，可释回而增美；欺人者非福，而受人欺者遇一番横逆一番器宇，可以转祸而为福。 梦里悬金佩玉，事事逼真，睡去虽真觉后假；闲中演偈谈元，言言酷似，说来虽是用时非。 天欲祸人，必先以微福骄之，所以福来不必喜，要看他会受；天欲福人，必先以微祸儆之，所以祸来不必忧，要看他会救。 荣与辱共蒂，厌辱何须求荣；生与死同根，贪生不必畏死。 作人只是一味率真，踪迹虽隐还显；存心若有半毫未净，事为虽公亦私。 鹩占一枝，反笑鹏心奢侈；兔营三窟，转嗤鹤垒高危。智小者不可以谋大，趣卑者不可与谈高。信然矣！ 贫贱骄人，虽涉虚骄，还有几分侠气，英雄欺世，纵似挥霍，钱没半点真心。糟糠不为彘肥，我何事偏贪钩下饵；锦绮岂因牺贵，谁人能解笼中囵囮。 琴书诗画，达士以之养性灵，而庸夫徒赏其迹象；山川云物，高人以之助学识，而俗子徒玩其光华，可见事物无定品，随人识见以为商下。故读书穷理，要以识趣为先。 姜女不尚华，似疏梅之映淡月；禅师不落空寂，若碧沼之吐青莲。 廉官多无后，以其太清也，痴人每多福，以鞭近厚也。故君子虽重廉洁，不可无含垢纳污之雅量。虽戒痴顽，亦不必有察渊洗垢之精明。 密则神气拘逼，疏则城真烂漫，此岂独诗文之工拙从此分哉！吾见周密之人纯用机巧，疏狂之士独任性真，人心之生死亦于此判也。 翠筱傲严霜，节 1 纵商，无伤冲雅；红蕖媚秋水，色虽艳丽，何禹清修。 簪缨之士，常不及孤寒之子可以抗节致忠，庙堂之士常不及山野之夫可以料事烛理。何也？彼以浓艳损志，此以淡泊全真也。 荣宠旁边辱等待，不必扬扬；困穷背后福跟随，何段戚戚。 古人闲适处，今人却忙过了一生，古人实受处，今人又虚度了一世。总是耽空逐妄，看全色身不破，认个法身不真耳。 芝草无根醴无源，志士当勇奋翼；彩云易散琉璃脆，达人当早回头。 少壮者，事事当用意而意反轻，徒汛汛作水中凫而已，何以振云霄之翮？衰老者，事事宜忘情而情反重，徒碌碌为辕下驹而已，何以脱缰锁之身？ 帆只扬五公，船便安。水只注五分，器便稳。如韩信以勇震主被擒，陆机以才名冠世见杀，霍光败于权势逼君，石崇死于财赋敌国，皆以十公取败者刀。康节云：“饮酒莫教成酩酊，看花慎勿至离披。”旨哉言乎 附势者如寄生依木，木伐而寄生亦枯；窃利者如蝇虰盗人，人死而蝇虰亦灭。始以势利害人，终以势利自毙。势利炎不害也，如是夫！ 失血于杯中，堪笑猩猩之嗜酒，为巢于幕上，可怜燕燕之偷安。 鹤立鸡群，可谓超然无侣矣。然进而观于大海之鹏。则眇然自小。又进而求之九霄之凤，则巍乎莫及。所以至人常若无若虚，而盛德多不柔不伐也，贪心胜者，逐兽而不见泰山在前，弹雀而不知深井在后；疑心胜者，见弓影而惊杯中之蛇，听人立而信市上之虎。人心一偏，遂视有为无，造无作有。如此，心可妄动哉！ 蛾扑火，火焦蛾，叵谓祸生无本；果种花，花结果，须知福至有因。 车争险道，马骋先鞭，到败处未免噬脐；粟喜堆山，几朝霜，几朝雪，傲就琅玕。 富贵是无情之物，看得他重，他害你越大，贫贱是耐久之交，处得他好，他益你深，故贪商旅而恋金谷乾，竟被一时之显戮，乐箪瓢而甘敝缊者，张洋享千载之令名。 鸽恶铃而商飞，不知敛翼而铃自息；人恶影而疾走，不知处阴而影自灭。故愚夫徒走高飞，而平地反为苦海，达士知处阴敛翼，而〇岩亦是坦途。秋虫春鸟共畅天机，何必浪生悲喜，老树新花同含生意，胡为妄别媸妍。 多栽桃李少栽荆，便是开条福路，不积诗书偏积玉，还如筑个祸基。 万境一辙原无地，着个穷通，万物一体原无处，分个彼我，世人迷真逐妄，乃向坦途上自没一坷坎，从空洞中自筑一藩蓠，享受足慨哉！ 大聪明的人，小事必朦胧，大懵懂的人，小事必伺察。盖伺察乃懵懂之根，而朦胧正聪明之窟也。 大烈鸿猷，常出悠闲镇定之士，不必忙忙，休征景福，多集宽洪长厚之家，何须琐琐。 贫士肯济人，才是性天中惠泽，闹场能学道，方为心地上工夫。 人生只为欲字所累，便如马如牛，听人羁络；为鹰为犬，任物鞭笞。若果一念清明，淡然无欲，天地也不能转动我，鬼神也不能役使我，况一切区区事物乎!</description>
+      <description>修身  欲做精金美玉的人品，定从烈火中锻来；思立掀天揭地的事功，须向薄冰上履过。 一念错，便觉百行皆非，防之当如渡海浮囊，勿容一针之罅漏；万善全，始得一生无悔。修之当如淩去宝树，须假众以撑持。 忙处事为，常向闲中先检点，过举自稀。动时念想，预从静里密持，非心自息。 为善欲自高月胜人，施恩而欲要名结好，修业而欲惊世通话骇俗，植节而欲标 异见奇，此皆是善念中戈矛，理路上荆棘，最易夹带，最难拔除者也。须是涤尽渣滓，斩绝萌芽，才见本来真体。 能轻富贵，不能轻一轻富贵之心；能重义，又复重一重名义之念。是事境之芥蒂未扫。此处拔除不净，恐石去而复生矣。 纷扰固溺志之场，而枯寂亦心之地。故学者当栖心元默，以宁吾真体。亦当适志恬愉，以养吾圆机。 昨日之日不可留，留之则根烬复萌，而尘情终累乎理趣；今日之是不可执，执这则渣滓未化，而理趣反转为欲根。 无事便思有闲杂念想否。有事便思有浮意气否。得意便思有骄矜辞色否。失意便思有怨望情怀否。时时检点，到得从多入少、从有入无，才是学问的真消息。 士人有百折不回之 真心，才有万变不穷之妙用。立业建功，事事要从实地着脚，若少慕声，便成伪果；讲道修德，念念要从虚处立基，若稍计功效，便落尘情。 身不宜忙，而忙于闲暇之时，亦可儆惕惰气；心不可放，而放于收摄之后，亦可鼓畅天机。 钟鼓体虚，为声闻而招撞；麋鹿性逸，因豢养而受羁縻。可见名为招祸之本，欲乃散志之媒。学者不可不力为扫除也。 一念常惺，才避去神弓鬼矢；纤尘不染；方解开地网天罗。 一点不能说忍的念头，是生民生物之根芽；一段不为的气节，是撑地之柱石。故君子于一虫一蚁不忍伤残，一缕地丝勿容贪冒，便可为万物立命立心矣。 拨开世上尘氛，胸中自无火焰冰竞；消却心中鄙吝。眼前时有月到风来。 学者动静殊操、喧寂异趣，还是锻炼未熟，心神混淆故耳。须是操存涵养，定云止水中，有鸢飞鱼跃的景象；风狂雨骤处，有波恬浪静的风光，才见处一化齐之妙。 心是一颗明珠。以物欲障蔽之，犹明珠而混以泥沙，其洗涤犹易；以情识衬贴之，犹明珠而饰以银黄，其洗涤最难。故学者不患垢病，而洁病治；不畏事障，而畏理障之 难除。 躯壳的我要看得破，则万有空而其心常虚，虚则义理来居；性命和我要兴得真，则万理皆备而其心常实，实则物欲不入。 面上扫开十层甲，眉目才无可憎；胸中涤去数斗尘，语言方觉有味。 完得心是之本来，方可言了心；尽得世间之常道，才堪论岀世。 我果为洪炉大冶，何患顽金钝铁之不可陶熔。我果为巨海长江，何患横流污渎之不能容纳。 白日欺人，难逃清夜之鬼报；红颜失志，空贻皓首之悲伤。 以积货财之心积学问，以求功名之念求道德，以爱妻子之心爱父母，以保爵位之策保国家，岀此入彼，念虑只差毫末，而超凡入圣，人品且判星渊矣。人胡不猛然转念哉！ 立百福之基，只在一念慈祥，开万善之门，无如寸心挹损。 塞得物欲之路，才堪辟道义之门；弛得尘俗之肩，方可挑圣贤之担。 容得性情上偏私，便是一大学问；消得家庭内嫌雪，才为火内栽莲。 事理因人言而悟者，有悟还有迷，总不如自悟之了了；意兴从外境而得者，有得还有失，总不旭自处之休休。 情之同处即为性，舍情则性不可见，欲之公处即为理，舍欲则理不可明。故君子不能灭情，惟事平情而已；不能绝欲，惟期寡欲而已。 欲遇变而无仓忙，须向常时念念守得定；欲临死而无贪恋，段仙生时事事看得轻。一念过差，足丧生平之善；终身检饬，难盖一事之愆。 从五更枕席上参勘心体，气未动，情未萌，才见本来面目；向三时饮食中谙练世味，浓不欣，淡不厌，方为切实工夫。  应酬  操存要有真宰，无真宰则遇事便倒，何以植顶天立地之砥柱！应用要有圆机，无机则触物有碍，何以成旋乾转坤之经纶！ 士君子之涉世，于人不可轻为喜怒，喜怒轻，则心腹肝胆皆为人所窥；于物不可重为爱憎，爱憎重，则意气精神悉为物所制。 倚高才而玩世，背后须防影之虫；饰厚貌以欺人，面前恐有照之镜。 心体澄彻，常在明镜止水之中，则天下自无可厌之事；意气和平，常在丽日风之内，则天下自无可恶之人。当是非邪正之交，不可少迁就，少迁就则失从违之 正；值利害得失之 会，不可太分明，太分明则起避之私。 苍蝇附骥，捷则捷矣，难辞处后之羞；萝茑依松，高则高矣，未免仰攀之耻。所以君子宁以风霜自挟，毋为鱼鸟亲人。 好丑心太明，收物不分契；贤愚心太明，则人不亲。士君子从而是内精明而外浑厚，使好丑两得其平，贤愚共受其益，才是生的德量。 伺察以为明者，常因明南昌生暗，故君子以恬养智；奋迅以为速者，多因速度南昌致迟，故君子以重持轻。士君子 济人利物，宜居其名，居其名则德损；士大夫忧国为人，当有其心，不当有其语，有其语则毁来。 遇大事矜持者，小事必纵弛；处明庭检饰者，暗室必放逸。君子只是一个念头持到底，自然临小事如临大敌，坐密室若坐通衢。 使人有面前之誉，不若使其无背后之毁；使人有乍交之欢，不若使其无久处之厌。 善启迪人心者，当因其所而渐通之，毌强开其所闭；善移风化者，当因其所易而渐及之，毌轻矫其所难。 彩笔描空，笔不落色，而空亦不受染；利刀割水，刀不损锷，而水亦不留痕。得此意以持身涉世，感与应俱适，心与境两忘矣。 已之情欲不可纵，当用逆之之法以制之，其道只在一忍字；人之情欲不可拂，当用顺之之法以调之，其道只在一恕字。今人皆恕以适已而忍以制人，毌乃不可乎！ 好察非明，能察能不察之谓明；必胜非勇，能胜不胜之谓勇。 随时之内善救时，若和风之消酷暑；混俗之中能脱垢浊之尘缘；思岀世而无染者，段先谙尽世中滋味。否则无以持空寂之后苦趣。 与人者，与其易疏于终，不若难亲于始；御事者，与其巧持于后，不若拙守于前。 酷烈之祸，多起于玩之人；盛满炎功，常败于细微炎事。故语去：“人人道好，段防一人着脑；事事有功，采购防一事不终。” 功名富贵，直从灭处观究竟，则贪恋自轻；横逆困穷，直从起处究由来，则怨尤自息。 宇宙内事要力担当，又要善摆脱。不担当，则无经世之事业；不摆脱，则列出世之襟期。 待人而留有余，不尽之恩礼，则可以维系无厌之人心；御事而留有余，不尽之才智，则可以提防不测之事变。 了心自了事，犹根拔而草不生；逃世不逃名，似膻存蚋而仍集。 仇边之弩易避，而恩里之戈难防；苦 时之坎易逃，而乐处之阱难脱。 膻秽则蝇蚋丛嘬，芳磬则蜂蝶交侵。故君子不作垢业，亦不立芳名。只是元气浑然，圭角不露，便是持身涉世一安乐窝也。 从静中观物动，向闲处看人忙，才得超尘脱俗的趣味；遇忙处会偷闲，处闹中能取静，便是安身立命的工夫。 邀千百之欢，不如释一人之怨；希千百事之荣，不如免一事之丑。 落落者，难合亦难分；欣欣者，易亲亦易散。是以君子宁以刚方见惮，毌以媚悦取容。 意气与天下相期，如春风之鼓畅庶类，不宜存半点隔之形；肝胆与天下相照，似秋月之洞彻群品，不可作一毫暧昧之状。 仕途虽赫奕，常思林下的风味，则权且之念自轻；世途虽纷华，常思泉下的光景，则利欲之心自淡。鸿示至先援弓，兔已亡再呼，总非当机作用国风息时休起浪，岸到处便离船，才是了手工夫。 从热闹场中出几句清冷言语，便扫除无限杀机；向寒微路上用一点赤热心肠，自培植许多生意。随缘便是遣缘，似舞蝶与飞花共适；顺事自然无事，若满月偕盂水同圆。 淡泊之守，须从浓艳场中试来；镇定之操，还向纷纭境上勘过。不然操持未定，应用未圆，恐一临机登坛，而上品禅师又成一下品俗士矣。 廉所以戒贪。我果不贪，又何必标一廉名，以来贪夫之侧目。让所以戒争，又何必立一让的，以致暴客之弯弓。 无事常如有事时，提防才可以弥意外之变；有事常如无事时，镇定方可以消局中之危。 处世而欲人感恩，便为敛怨之道；遇事而为人除害，即是导利之机。 持身如泰山九鼎凝然不动，则愆尤自少；应吉若流水落花悠然而逝，则趣味常多。 君子严如介石南昌畏其难亲。鲜不以明珠为怪物而起胺剑之心；小人骨如脂南昌喜其易合，鲜不以互毒螫为甘饴而纵染指之欲。 遇事只一味镇定从容，纵纷若乱丝，终当就绪；待人无半毫矫伪欺隐，虽狡如鬼，亦自献诚。 肝肠煦若春风，虽囊无一文，还怜茕独；气骨清如秋水，纵家徒四壁，终傲王公。 讨了人事的便宜，必受天道的亏；贪发世味胡滋益，必招性分胡损。涉世者宜蕃择之，慎毌贪黄雀南昌坠深井，舍隋珠南昌弹飞禽也。费千金而结纳贤豪，熟若倾半瓢之粟，以济饥饿之人；构千楹而招来宾客，孰若葺数椽之茅，以庇孤寒之士。 解斗者助之以威，则怒气自平；惩贪者济之以欲，则利心反淡。所谓因其势而利导之，亦救时应变一权宜法也。 市恩不如报德之为。雪忿不若忍耻不高。要誉不如逃名之不适。矫情不若直节之为真。 救既败事者，如驭临之马，休轻策一鞭；图垂成之功者，如挽上滩之舟，莫少停一棹。/ 先达笑弹冠，休向侯门轻曳裾；相知犹按剑，莫从世路暗投珠。 杨修之躯见杀于曹操，以露已之长也；韦诞之墓见伐于钟繇，以秘已之美也。故哲士多匿采以韬光，至人常逊美而公善。 少年的人，不患其不奋迅，常患畚迅而成卤莽，故当抑其躁心；老成的人，不患其不持重，常患以持重而成退缩，故当振其惰气。 望重缙绅，怎似寒微之颂德。朋来海宇，何如骨肉之孚心。 舌存常见齿亡，刚强终不胜柔弱；户朽未闻枢蠹，偏执岂能及圆融。  评议  物莫大于天地日月，而子美云：“日月笼中鸟，亁坤水上萍。”莫事大于揖逊征诛，而康节云：“唐虞揖逊三杯酒，汤武征诛一局棋。”人能以此胸襟眼界吞吐六合，上下千古，事来如沤生大海，事去如影灭长空，自经纶万变而不动一尘矣。 君子好名，便起欺人之念；小人好名，犹怀畏人之心。故人而皆好名，则开诈善之门。使人而不好名，则绝为善之路。此讥好名者，当严责君子，不当过求于小人也。 大恶多从柔处伏，哲士须防绵里之针；深仇常自爱中来，达人宜远刀头之蜜。 持身涉世，不可随境而迁。须是大火流金而清风穆然，严霜杀物而和气蔼然，阴霾翳空而慧日朗然，洪涛倒海而坻柱屹我，方是宇宙内的真人品。爱是万缘之根，当知割舍。识是众欲之本，要力扫除。 作人要脱俗，不可存一矫俗这心；应世要随时，不可起一趋时之念。 宁有求全之毁，不可有过情之誉；宁有无妄之灾，不可有非分之福。 毁人者不美，而受人毁者遭一番讪谤便加一番修省，可释回而增美；欺人者非福，而受人欺者遇一番横逆一番器宇，可以转祸而为福。 梦里悬金佩玉，事事逼真，睡去虽真觉后假；闲中演偈谈元，言言酷似，说来虽是用时非。 天欲祸人，必先以微福骄之，所以福来不必喜，要看他会受；天欲福人，必先以微祸儆之，所以祸来不必忧，要看他会救。 荣与辱共蒂，厌辱何须求荣；生与死同根，贪生不必畏死。 作人只是一味率真，踪迹虽隐还显；存心若有半毫未净，事为虽公亦私。 鹩占一枝，反笑鹏心奢侈；兔营三窟，转嗤鹤垒高危。智小者不可以谋大，趣卑者不可与谈高。信然矣！ 贫贱骄人，虽涉虚骄，还有几分侠气，英雄欺世，纵似挥霍，钱没半点真心。糟糠不为彘肥，我何事偏贪钩下饵；锦绮岂因牺贵，谁人能解笼中囵囮。 琴书诗画，达士以之养性灵，而庸夫徒赏其迹象；山川云物，高人以之助学识，而俗子徒玩其光华，可见事物无定品，随人识见以为商下。故读书穷理，要以识趣为先。 姜女不尚华，似疏梅之映淡月；禅师不落空寂，若碧沼之吐青莲。 廉官多无后，以其太清也，痴人每多福，以鞭近厚也。故君子虽重廉洁，不可无含垢纳污之雅量。虽戒痴顽，亦不必有察渊洗垢之精明。 密则神气拘逼，疏则城真烂漫，此岂独诗文之工拙从此分哉！吾见周密之人纯用机巧，疏狂之士独任性真，人心之生死亦于此判也。 翠筱傲严霜，节 1 纵商，无伤冲雅；红蕖媚秋水，色虽艳丽，何禹清修。 簪缨之士，常不及孤寒之子可以抗节致忠，庙堂之士常不及山野之夫可以料事烛理。何也？彼以浓艳损志，此以淡泊全真也。 荣宠旁边辱等待，不必扬扬；困穷背后福跟随，何段戚戚。 古人闲适处，今人却忙过了一生，古人实受处，今人又虚度了一世。总是耽空逐妄，看全色身不破，认个法身不真耳。 芝草无根醴无源，志士当勇奋翼；彩云易散琉璃脆，达人当早回头。 少壮者，事事当用意而意反轻，徒汛汛作水中凫而已，何以振云霄之翮？衰老者，事事宜忘情而情反重，徒碌碌为辕下驹而已，何以脱缰锁之身？ 帆只扬五公，船便安。水只注五分，器便稳。如韩信以勇震主被擒，陆机以才名冠世见杀，霍光败于权势逼君，石崇死于财赋敌国，皆以十公取败者刀。康节云：“饮酒莫教成酩酊，看花慎勿至离披。”旨哉言乎 附势者如寄生依木，木伐而寄生亦枯；窃利者如蝇虰盗人，人死而蝇虰亦灭。始以势利害人，终以势利自毙。势利炎不害也，如是夫！ 失血于杯中，堪笑猩猩之嗜酒，为巢于幕上，可怜燕燕之偷安。 鹤立鸡群，可谓超然无侣矣。然进而观于大海之鹏。则眇然自小。又进而求之九霄之凤，则巍乎莫及。所以至人常若无若虚，而盛德多不柔不伐也，贪心胜者，逐兽而不见泰山在前，弹雀而不知深井在后；疑心胜者，见弓影而惊杯中之蛇，听人立而信市上之虎。人心一偏，遂视有为无，造无作有。如此，心可妄动哉！ 蛾扑火，火焦蛾，叵谓祸生无本；果种花，花结果，须知福至有因。 车争险道，马骋先鞭，到败处未免噬脐；粟喜堆山，几朝霜，几朝雪，傲就琅玕。 富贵是无情之物，看得他重，他害你越大，贫贱是耐久之交，处得他好，他益你深，故贪商旅而恋金谷乾，竟被一时之显戮，乐箪瓢而甘敝缊者，张洋享千载之令名。 鸽恶铃而商飞，不知敛翼而铃自息；人恶影而疾走，不知处阴而影自灭。故愚夫徒走高飞，而平地反为苦海，达士知处阴敛翼，而〇岩亦是坦途。秋虫春鸟共畅天机，何必浪生悲喜，老树新花同含生意，胡为妄别媸妍。 多栽桃李少栽荆，便是开条福路，不积诗书偏积玉，还如筑个祸基。 万境一辙原无地，着个穷通，万物一体原无处，分个彼我，世人迷真逐妄，乃向坦途上自没一坷坎，从空洞中自筑一藩蓠，享受足慨哉！ 大聪明的人，小事必朦胧，大懵懂的人，小事必伺察。盖伺察乃懵懂之根，而朦胧正聪明之窟也。 大烈鸿猷，常出悠闲镇定之士，不必忙忙，休征景福，多集宽洪长厚之家，何须琐琐。 贫士肯济人，才是性天中惠泽，闹场能学道，方为心地上工夫。 人生只为欲字所累，便如马如牛，听人羁络；为鹰为犬，任物鞭笞。若果一念清明，淡然无欲，天地也不能转动我，鬼神也不能役使我，况一切区区事物乎!</description>
     </item>
     
     <item>
@@ -474,11 +577,12 @@ This document is a brief primer on using Go templates.</description>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo #  Go to Hugo releases and download the appropriate version for your OS and architecture.
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
-Step 2. Build the Docs #  Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:</description>
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
     <item>
@@ -487,7 +591,7 @@ Follow the following steps:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/electricity/hidden/</guid>
-      <description>This page is hidden in menu #  Example #  --- bookHidden: true --- File meta control page to show or not.
+      <description>This page is hidden in menu Example --- bookHidden: true --- File meta control page to show or not.
  true: show false: not show  </description>
     </item>
     
@@ -497,7 +601,7 @@ Follow the following steps:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/invest/hidden/</guid>
-      <description>This page is hidden in menu #  --- bookHidden: true --- File meta control page show or not.</description>
+      <description>This page is hidden in menu --- bookHidden: true --- File meta control page show or not.</description>
     </item>
     
     <item>
@@ -506,8 +610,8 @@ Follow the following steps:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/buttons/</guid>
-      <description>Buttons #  Buttons are styled links that can lead to local page or external link.
-Example #  {{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}  Get Home  Contribute  </description>
+      <description>Buttons Buttons are styled links that can lead to local page or external link.
+Example {{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}  Get Home  Contribute  </description>
     </item>
     
     <item>
@@ -516,8 +620,8 @@ Example #  {{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/columns/</guid>
-      <description>Columns #  Columns help organize shorter pieces of content horizontally for readability.
-{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Mid Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Right Content Lorem markdownum insigne... {{&amp;lt; /columns &amp;gt;}} Example #  Left Content #  Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!</description>
+      <description>Columns Columns help organize shorter pieces of content horizontally for readability.
+{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Mid Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Right Content Lorem markdownum insigne... {{&amp;lt; /columns &amp;gt;}} Example Left Content Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!</description>
     </item>
     
     <item>
@@ -526,8 +630,8 @@ Example #  {{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/details/</guid>
-      <description>Details #  Details shortcode is a helper for details html5 element. It is going to replace expand shortcode.
-Example #  {{&amp;lt; details &amp;#34;Title&amp;#34; [open] &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} {{&amp;lt; details title=&amp;#34;Title&amp;#34; open=true &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} Title Markdown content #  Lorem markdownum insigne&amp;hellip;   </description>
+      <description>Details Details shortcode is a helper for details html5 element. It is going to replace expand shortcode.
+Example {{&amp;lt; details &amp;#34;Title&amp;#34; [open] &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} {{&amp;lt; details title=&amp;#34;Title&amp;#34; open=true &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} Title Markdown content Lorem markdownum insigne&amp;hellip;   </description>
     </item>
     
     <item>
@@ -536,8 +640,8 @@ Example #  {{&amp;lt; details &amp;#34;Title&amp;#34; [open] &amp;gt;}} ## Markd
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/expand/</guid>
-      <description>Expand #  Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
-Example #  Default #  {{&amp;lt; expand &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}}   Expand ↕  Markdown content Lorem markdownum insigne&amp;hellip;    With Custom Label #  {{&amp;lt; expand &amp;#34;Custom Label&amp;#34; &amp;#34;...&amp;#34; &amp;gt;}} ## Markdown content Lorem markdownum insigne.</description>
+      <description>Expand Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
+Example Default {{&amp;lt; expand &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}}   Expand ↕  Markdown content Lorem markdownum insigne&amp;hellip;    With Custom Label {{&amp;lt; expand &amp;#34;Custom Label&amp;#34; &amp;#34;...&amp;#34; &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}}   Custom Label .</description>
     </item>
     
     <item>
@@ -546,9 +650,9 @@ Example #  Default #  {{&amp;lt; expand &amp;gt;}} ## Markdown content Lorem mar
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/hints/</guid>
-      <description>Hints #  Hint shortcode can be used as hint/alerts/notification block.
+      <description>Hints Hint shortcode can be used as hint/alerts/notification block.
 There are 3 colors to choose: info, warning and danger.
-{{&amp;lt; hint [info|warning|danger] &amp;gt;}} **Markdown content** Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa {{&amp;lt; /hint &amp;gt;}} Example #  Markdown content
+{{&amp;lt; hint [info|warning|danger] &amp;gt;}} **Markdown content** Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa {{&amp;lt; /hint &amp;gt;}} Example Markdown content
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa  Markdown content</description>
     </item>
     
@@ -558,8 +662,8 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/katex/</guid>
-      <description>KaTeX #  KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
-Example #  {{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp;gt;}} f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&amp;lt; /katex &amp;gt;}}     \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]    Display Mode Example #  Here is some inline example:  \(\pi(x)\)  , rendered in the same line. And below is display example, having display: block  \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]  Text continues here.</description>
+      <description>KaTeX KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
+Example {{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp;gt;}} f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&amp;lt; /katex &amp;gt;}}     \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]    Display Mode Example Here is some inline example:  \(\pi(x)\)  , rendered in the same line. And below is display example, having display: block  \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]  Text continues here.</description>
     </item>
     
     <item>
@@ -568,10 +672,10 @@ Example #  {{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/mermaid/</guid>
-      <description>Mermaid Chart #   MermaidJS is library for generating svg charts and diagrams from text.
+      <description>Mermaid Chart  MermaidJS is library for generating svg charts and diagrams from text.
 Override Mermaid Initialization Config
 To override the initialization config for Mermaid, create a mermaid.json file in your assets folder!
- Example #  {{&amp;lt; mermaid [class=&amp;#34;text-center&amp;#34;]&amp;gt;}} stateDiagram-v2 State1: The state with a note note right of State1 Important information! You can write notes. end note State1 --&amp;gt; State2 note left of State2 : This is the note to the left.</description>
+ Example {{&amp;lt; mermaid [class=&amp;#34;text-center&amp;#34;]&amp;gt;}} stateDiagram-v2 State1: The state with a note note right of State1 Important information! You can write notes. end note State1 --&amp;gt; State2 note left of State2 : This is the note to the left.</description>
     </item>
     
     <item>
@@ -580,7 +684,7 @@ To override the initialization config for Mermaid, create a mermaid.json file in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/section/first-page/</guid>
-      <description>First page #  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <description>First page Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
@@ -590,7 +694,7 @@ To override the initialization config for Mermaid, create a mermaid.json file in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/section/second-page/</guid>
-      <description>Second Page #  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <description>Second Page Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
@@ -600,9 +704,9 @@ To override the initialization config for Mermaid, create a mermaid.json file in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fire.daotoyi.cn/docs/shortcodes/tabs/</guid>
-      <description>Tabs #  Tabs let you organize content by context, for example installation instructions for each supported platform.
-{{&amp;lt; tabs &amp;#34;uniqueid&amp;#34; &amp;gt;}} {{&amp;lt; tab &amp;#34;MacOS&amp;#34; &amp;gt;}} # MacOS Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Linux&amp;#34; &amp;gt;}} # Linux Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Windows&amp;#34; &amp;gt;}} # Windows Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabs &amp;gt;}} Example #  MacOS MacOS #  This is tab MacOS content.
-Lorem markdownum insigne. Olympo signis Delphis!</description>
+      <description>Tabs Tabs let you organize content by context, for example installation instructions for each supported platform.
+{{&amp;lt; tabs &amp;#34;uniqueid&amp;#34; &amp;gt;}} {{&amp;lt; tab &amp;#34;MacOS&amp;#34; &amp;gt;}} # MacOS Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Linux&amp;#34; &amp;gt;}} # Linux Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Windows&amp;#34; &amp;gt;}} # Windows Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabs &amp;gt;}} Example MacOS MacOS This is tab MacOS content.
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!</description>
     </item>
     
   </channel>

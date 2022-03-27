@@ -5,7 +5,29 @@
     <link>https://fire.daotoyi.cn/categories/</link>
     <description>Recent content in Categories on FIRE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Mar 2022 12:34:08 +0800</lastBuildDate><atom:link href="https://fire.daotoyi.cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Mar 2022 11:34:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://fire.daotoyi.cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Concept</title>
+      <link>https://fire.daotoyi.cn/categories/Concept/</link>
+      <pubDate>Sun, 27 Mar 2022 11:34:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/categories/Concept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>View</title>
+      <link>https://fire.daotoyi.cn/categories/View/</link>
+      <pubDate>Mon, 14 Mar 2022 16:04:00 +0800</pubDate>
+      
+      <guid>https://fire.daotoyi.cn/categories/View/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Power</title>
       <link>https://fire.daotoyi.cn/categories/Power/</link>
@@ -16,11 +38,11 @@
     </item>
     
     <item>
-      <title>View</title>
-      <link>https://fire.daotoyi.cn/categories/View/</link>
+      <title>Cognition</title>
+      <link>https://fire.daotoyi.cn/categories/Cognition/</link>
       <pubDate>Sat, 12 Mar 2022 21:16:00 +0800</pubDate>
       
-      <guid>https://fire.daotoyi.cn/categories/View/</guid>
+      <guid>https://fire.daotoyi.cn/categories/Cognition/</guid>
       <description></description>
     </item>
     
@@ -43,11 +65,11 @@
     </item>
     
     <item>
-      <title>Project</title>
-      <link>https://fire.daotoyi.cn/categories/Project/</link>
+      <title>Opportunity</title>
+      <link>https://fire.daotoyi.cn/categories/Opportunity/</link>
       <pubDate>Sat, 12 Mar 2022 16:00:00 +0800</pubDate>
       
-      <guid>https://fire.daotoyi.cn/categories/Project/</guid>
+      <guid>https://fire.daotoyi.cn/categories/Opportunity/</guid>
       <description></description>
     </item>
     
@@ -79,15 +101,6 @@
     </item>
     
     <item>
-      <title>Cognition</title>
-      <link>https://fire.daotoyi.cn/categories/Cognition/</link>
-      <pubDate>Tue, 08 Mar 2022 22:36:00 +0800</pubDate>
-      
-      <guid>https://fire.daotoyi.cn/categories/Cognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Estate</title>
       <link>https://fire.daotoyi.cn/categories/Estate/</link>
       <pubDate>Tue, 08 Mar 2022 22:11:35 +0800</pubDate>
@@ -106,11 +119,11 @@
     </item>
     
     <item>
-      <title>Guwen</title>
-      <link>https://fire.daotoyi.cn/categories/Guwen/</link>
+      <title>古文</title>
+      <link>https://fire.daotoyi.cn/categories/%E5%8F%A4%E6%96%87/</link>
       <pubDate>Fri, 11 Feb 2022 11:04:00 +0800</pubDate>
       
-      <guid>https://fire.daotoyi.cn/categories/Guwen/</guid>
+      <guid>https://fire.daotoyi.cn/categories/%E5%8F%A4%E6%96%87/</guid>
       <description></description>
     </item>
     

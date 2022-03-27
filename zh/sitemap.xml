@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://fire.daotoyi.cn/zh/categories/</loc>
     <xhtml:link
@@ -13,7 +14,9 @@
                 hreflang="zh"
                 href="https://fire.daotoyi.cn/zh/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://fire.daotoyi.cn/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -25,8 +28,11 @@
                 hreflang="zh"
                 href="https://fire.daotoyi.cn/zh/tags/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://fire.daotoyi.cn/zh/</loc>
+    <lastmod>2022-03-27T16:18:02+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -38,4 +44,5 @@
                 href="https://fire.daotoyi.cn/zh/"
                 />
   </url>
+  
 </urlset>
